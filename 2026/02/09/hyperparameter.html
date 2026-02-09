@@ -43,31 +43,31 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Example post 2 | Research and Innovation Services (RIS)</title>
+<title>Hyperparameter Search The Cool Way | Research and Innovation Services (RIS)</title>
 
 <link rel="icon" href="/ris/images/icon.png">
 
-<meta name="title" content="Example post 2">
+<meta name="title" content="Hyperparameter Search The Cool Way">
 <meta name="description" content="An engaging 1-3 sentence description of your lab.">
 
-<meta property="og:title" content="Example post 2">
+<meta property="og:title" content="Hyperparameter Search The Cool Way">
 <meta property="og:site_title" content="Research and Innovation Services (RIS)">
 <meta property="og:description" content="An engaging 1-3 sentence description of your lab.">
 <meta property="og:url" content="https://luthfi-ramadhan.github.io/ris">
 <meta property="og:image" content="/ris/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Example post 2">
+<meta property="twitter:title" content="Hyperparameter Search The Cool Way">
 <meta property="twitter:description" content="An engaging 1-3 sentence description of your lab.">
 <meta property="twitter:url" content="https://luthfi-ramadhan.github.io/ris">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/ris/images/share.jpg">
 
 
-  <meta name="author" content="jane-smith">
+  <meta name="author" content="Mgs. M. Luthfi Ramadhan">
   <meta property="og:type" content="article">
   <meta property="og:updated_time" content="2026-02-09T15:35:19+00:00">
-  <meta property="article:published_time" content="2021-09-30T00:00:00+00:00">
+  <meta property="article:published_time" content="2026-02-09T00:00:00+00:00">
   <meta property="article:modified_time" content="2026-02-09T15:35:19+00:00">
   <meta name="revised" content="2026-02-09T15:35:19+00:00">
 
@@ -77,13 +77,13 @@
     "@context": "https://schema.org",
     
       "@type": "BlogPosting",
-      "author": { "@type": "Person", "name": "Example post 2" },
-      "datePublished": "2021-09-30T00:00:00+00:00",
+      "author": { "@type": "Person", "name": "Hyperparameter Search The Cool Way" },
+      "datePublished": "2026-02-09T00:00:00+00:00",
       "dateModified": "2026-02-09T15:35:19+00:00",
     
-    "name": "Example post 2",
+    "name": "Hyperparameter Search The Cool Way",
     "description": "An engaging 1-3 sentence description of your lab.",
-    "headline": "Example post 2",
+    "headline": "Hyperparameter Search The Cool Way",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/ris/images/icon.png" }
@@ -415,7 +415,7 @@
 -->
 
 
-<h1 class="center">Example post 2</h1>
+<h1 class="center">Hyperparameter Search The Cool Way</h1>
 
 <div class="post-info">
   
@@ -425,7 +425,7 @@
       
         <span data-tooltip="Author">
           <i class="icon fa-solid fa-feather-pointed"></i>
-          <span>jane-smith</span>
+          <span>mgs. m. luthfi ramadhan</span>
         </span>
       
     
@@ -437,17 +437,36 @@
   
     <span data-tooltip="Originally published on">
       <i class="icon fa-regular fa-calendar"></i>
-      <span>September 30, 2021</span>
+      <span>February 09, 2026</span>
     </span>
   
 
   
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>February 09, 2026</span>
-    </span>
-  
 </div>
+
+
+  
+
+
+  <div class="tags">
+    
+      <a href="/ris/blog?search=%22tag:%20computing%22" class="tag" data-tooltip='Show items with the tag "computing"'>
+        computing
+      </a>
+    
+      <a href="/ris/blog?search=%22tag:%20deep-learning%22" class="tag" data-tooltip='Show items with the tag "deep-learning"'>
+        deep-learning
+      </a>
+    
+      <a href="/ris/blog?search=%22tag:%20training%22" class="tag" data-tooltip='Show items with the tag "training"'>
+        training
+      </a>
+    
+      <a href="/ris/blog?search=%22tag:%20experiment%22" class="tag" data-tooltip='Show items with the tag "experiment"'>
+        experiment
+      </a>
+    
+  </div>
   </section>
 
   
@@ -462,7 +481,126 @@
 -->
 
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<h1 id="-hyperparameter-search-using-scriptsh-memory-safe-approach">🔍 Hyperparameter Search Using <code class="language-plaintext highlighter-rouge">script.sh</code> (Memory-Safe Approach)</h1>
+
+<p>Hyperparameter search is done via shell scripts, not Python loops.<br>
+This avoids:</p>
+<ul>
+  <li>GPU / RAM memory explosion</li>
+  <li>TensorFlow graph accumulation</li>
+  <li>Zombie processes after many experiments</li>
+  <li>Garbage collecting, you are not a sanitation worker!!!</li>
+</ul>
+
+<p>Each run is a fresh Python process.</p>
+
+<hr>
+
+<h2 id="1️⃣-why-not-grid-search-inside-python">1️⃣ Why NOT Grid Search Inside Python?</h2>
+
+<p>❌ Bad practice:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">lr</span> <span class="ow">in</span> <span class="p">[</span><span class="mf">1e-3</span><span class="p">,</span> <span class="mf">1e-4</span><span class="p">]:</span>
+    <span class="k">for</span> <span class="n">bs</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">16</span><span class="p">,</span> <span class="mi">32</span><span class="p">]:</span>
+        <span class="n">model</span> <span class="o">=</span> <span class="n">build_model</span><span class="p">()</span>
+        <span class="n">model</span><span class="p">.</span><span class="n">fit</span><span class="p">(...)</span>
+</code></pre></div></div>
+<p>Problems:</p>
+<ul>
+  <li>GPU memory not fully released (This will literally crash you)</li>
+  <li>TensorFlow graph grows</li>
+  <li>Hard to recover from crashes</li>
+  <li>You have to delete each variable manually and collect the garbage</li>
+</ul>
+
+<hr>
+
+<h2 id="2️⃣-recommended-way">2️⃣ Recommended Way</h2>
+<p>✅ One experiment = one Python process</p>
+
+<p>We use:</p>
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">train.py</code> → train one configuration</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">script.sh</code> → launch many runs with different hyperparameter</li>
+</ul>
+
+<hr>
+
+<h2 id="3️⃣-trainpy-single-run-training-script">3️⃣ train.py: Single-Run Training Script</h2>
+<p>Your Python script must:</p>
+<ul>
+  <li>Accept hyperparameters as arguments</li>
+  <li>Train exactly one model</li>
+  <li>Exit cleanly</li>
+</ul>
+
+<p>Example: <code class="language-plaintext highlighter-rouge">train.py</code></p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="n">tf</span>
+
+
+<span class="n">batch</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+<span class="n">lr</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+<span class="n">SEED</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span>
+
+
+<span class="n">set_global_determinism</span><span class="p">(</span><span class="n">seed</span><span class="o">=</span><span class="n">SEED</span><span class="p">)</span>
+
+<span class="n">model</span> <span class="o">=</span> <span class="n">build_model</span><span class="p">(</span><span class="n">learning_rate</span><span class="o">=</span><span class="n">lr</span><span class="p">)</span>
+<span class="n">model</span><span class="p">.</span><span class="n">fit</span><span class="p">(</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">x_train</span><span class="p">,</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="n">y_train</span><span class="p">,</span>
+    <span class="n">batch_size</span> <span class="o">=</span> <span class="n">batch</span><span class="p">,</span>
+    <span class="n">epochs</span> <span class="o">=</span> <span class="mi">250</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<hr>
+
+<h2 id="4️⃣-scriptsh-grid-search-controller">4️⃣ script.sh: Grid Search Controller</h2>
+<p>This script controls the experiment space.</p>
+
+<p>Example: <code class="language-plaintext highlighter-rouge">script.sh</code></p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+
+<span class="nv">lr_pool</span><span class="o">=(</span><span class="s2">"0.001"</span> <span class="s2">"0.0005"</span> <span class="s2">"0.0001"</span><span class="o">)</span>
+<span class="nv">batch_pool</span><span class="o">=(</span><span class="s2">"16"</span> <span class="s2">"32"</span><span class="o">)</span>
+<span class="nv">SEED</span><span class="o">=</span>42
+
+<span class="k">for </span>batch <span class="k">in</span> <span class="k">${</span><span class="nv">batch_pool</span><span class="p">[@]</span><span class="k">}</span>
+    <span class="k">do
+    for </span>lr <span class="k">in</span> <span class="k">${</span><span class="nv">lr_pool</span><span class="p">[@]</span><span class="k">}</span>
+    <span class="k">do
+        </span>python train.py <span class="s2">"</span><span class="nv">$batch</span><span class="s2">"</span> <span class="s2">"</span><span class="nv">$lr</span><span class="s2">"</span> <span class="s2">"</span><span class="nv">$SEED</span><span class="s2">"</span>
+    <span class="k">done
+done</span>
+
+</code></pre></div></div>
+<p><code class="language-plaintext highlighter-rouge">#!/bin/bash</code> is a must and should be placed on the very first line of the <code class="language-plaintext highlighter-rouge">.sh</code> script.</p>
+
+<hr>
+
+<h2 id="5️⃣-run-your-script">5️⃣ Run your script</h2>
+<p>⚠️ Make executable (Very Important!!!):</p>
+
+<p>Go to your terminal and run <code class="language-plaintext highlighter-rouge">chmod +x script.sh</code></p>
+
+<p>Running your script with the following syntax: <code class="language-plaintext highlighter-rouge">./script.sh</code></p>
+
+<hr>
+
+<h2 id="6️⃣-this-is-memory-safe">6️⃣ This Is Memory-Safe</h2>
+<p>Each loop:</p>
+<ul>
+  <li>Launches a new Python process</li>
+  <li>TensorFlow releases GPU memory on exit</li>
+  <li>No graph accumulation</li>
+  <li>No manual <code class="language-plaintext highlighter-rouge">del model</code>
+</li>
+</ul>
+
+<hr>
   </section>
 
   
@@ -480,12 +618,17 @@
 <div class="post-nav">
   <span>
     
+      <i class="icon fa-solid fa-angle-left"></i> Previous post<br>
+      <a href="/ris/2026/02/09/deterministic.html">
+        Deterministic Setting
+      </a>
+    
   </span>
   <span>
     
       Next post <i class="icon fa-solid fa-angle-right"></i><br>
-      <a href="/ris/2023/02/23/example-post-3.html">
-        Example post 3
+      <a href="/ris/2026/02/09/tmux.html">
+        How To Use Tmux
       </a>
     
   </span>

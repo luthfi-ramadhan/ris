@@ -501,6 +501,14 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
         training
       </a>
     
+      <a href="/ris/blog/?search=%22tag:%20experiment%22" class="tag" data-tooltip='Show items with the tag "experiment"'>
+        experiment
+      </a>
+    
+      <a href="/ris/blog/?search=%22tag:%20terminal%22" class="tag" data-tooltip='Show items with the tag "terminal"'>
+        terminal
+      </a>
+    
   </div>
 
 <div class="search-info"></div>
@@ -516,7 +524,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
     
 
     <div class="post-excerpt-text">
-      <a href="/ris/2026/02/09/example-post-1.html">Hyperparameter Search The Cool Way</a>
+      <a href="/ris/2026/02/09/deterministic.html">Deterministic Setting</a>
 
       <div class="post-info">
   
@@ -563,6 +571,86 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
         training
       </a>
     
+      <a href="/ris/blog?search=%22tag:%20experiment%22" class="tag" data-tooltip='Show items with the tag "experiment"'>
+        experiment
+      </a>
+    
+  </div>
+
+
+
+
+
+      
+      
+      <p data-search="Enabling Deterministic Behavior in TensorFlowThis course uses a fixed deterministic setup to ensure: Identical results across runs Fair and square comparison Easier debugging and discussion Reproducibility1 Why Determinism Is NeededDeep learning training can be non-deterministic due to: Random initialization GPU parallelism cuDNN and CUDA auto-optimizationsWithout control, the same code may produce different results.2 Required Deterministic FunctionsUse the following implementation.import osimport randomimport numpy as npimport tensorflow as tfSEED 42 You can use whatever seeddef set seeds seed SEED : os.environ PYTHONHASHSEED str seed random.seed seed tf.random.set seed seed np.random.seed seed def set global determinism seed SEED : set seeds seed seed os.environ TF DETERMINISTIC OPS 1 os.environ TF CUDNN DETERMINISTIC 1 tf.config.threading.set inter op parallelism threads 1 tf.config.threading.set intra op parallelism threads 1 tf.keras.backend.set floatx float32 set global determinism seed SEED 3 Where This Code Must Be PlacedThis code must be executed:At the very top of the Python scriptBefore: Model creation Dataset loading Any training or evaluation">
+        🔁 Enabling Deterministic Behavior in TensorFlow
+
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
+
+    
+
+    <div class="post-excerpt-text">
+      <a href="/ris/2026/02/09/hyperparameter.html">Hyperparameter Search The Cool Way</a>
+
+      <div class="post-info">
+  
+    
+    
+      
+      
+        <span data-tooltip="Author">
+          <i class="icon fa-solid fa-feather-pointed"></i>
+          <span>mgs. m. luthfi ramadhan</span>
+        </span>
+      
+    
+  
+
+  
+  
+
+  
+    <span data-tooltip="Originally published on">
+      <i class="icon fa-regular fa-calendar"></i>
+      <span>February 09, 2026</span>
+    </span>
+  
+
+  
+</div>
+
+
+  
+
+
+  <div class="tags">
+    
+      <a href="/ris/blog?search=%22tag:%20computing%22" class="tag" data-tooltip='Show items with the tag "computing"'>
+        computing
+      </a>
+    
+      <a href="/ris/blog?search=%22tag:%20deep-learning%22" class="tag" data-tooltip='Show items with the tag "deep-learning"'>
+        deep-learning
+      </a>
+    
+      <a href="/ris/blog?search=%22tag:%20training%22" class="tag" data-tooltip='Show items with the tag "training"'>
+        training
+      </a>
+    
+      <a href="/ris/blog?search=%22tag:%20experiment%22" class="tag" data-tooltip='Show items with the tag "experiment"'>
+        experiment
+      </a>
+    
   </div>
 
 
@@ -573,6 +661,82 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
       
       <p data-search="Hyperparameter Search Using script.sh Memory-Safe Approach Hyperparameter search is done via shell scripts, not Python loops.This avoids: GPU RAM memory explosion TensorFlow graph accumulation Zombie processes after many experiments Garbage collecting, you are not a sanitation worker Each run is a fresh Python process.1 Why NOT Grid Search Inside Python Bad practice:for lr in 1e-3, 1e-4 : for bs in 16, 32 : model build model model.fit ... Problems: GPU memory not fully released This will literally crash you TensorFlow graph grows Hard to recover from crashes You have to delete each variable manually and collect the garbage2 Recommended Way One experiment one Python processWe use: train.py train one configuration script.sh launch many runs with different hyperparameter3 train.py: Single-Run Training ScriptYour Python script must: Accept hyperparameters as arguments Train exactly one model Exit cleanlyExample: train.pyimport sysimport tensorflow as tfbatch int sys.argv 1 lr float sys.argv 2 SEED int sys.argv 3 set global determinism seed SEED model build model learning rate lr model.fit x x train, y y train, batch size batch, epochs 250 4 script.sh: Grid Search ControllerThis script controls the experiment space.Example: script.sh bin bashlr pool 0.001 0.0005 0.0001 batch pool 16 32 SEED 42for batch in batch pool do for lr in lr pool do python train.py batch lr SEED donedone bin bash is a must and should be placed on the very first line of the .sh script.5 Run your script Make executable Very Important :Go to your terminal and run chmod x script.shRunning your script with the following syntax: . script.sh6 This Is Memory-SafeEach loop: Launches a new Python process TensorFlow releases GPU memory on exit No graph accumulation No manual del model">
         🔍 Hyperparameter Search Using script.sh (Memory-Safe Approach)
+
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
+
+    
+
+    <div class="post-excerpt-text">
+      <a href="/ris/2026/02/09/tmux.html">How To Use Tmux</a>
+
+      <div class="post-info">
+  
+    
+    
+      
+      
+        <span data-tooltip="Author">
+          <i class="icon fa-solid fa-feather-pointed"></i>
+          <span>mgs. m. luthfi ramadhan</span>
+        </span>
+      
+    
+  
+
+  
+  
+
+  
+    <span data-tooltip="Originally published on">
+      <i class="icon fa-regular fa-calendar"></i>
+      <span>February 09, 2026</span>
+    </span>
+  
+
+  
+</div>
+
+
+  
+
+
+  <div class="tags">
+    
+      <a href="/ris/blog?search=%22tag:%20computing%22" class="tag" data-tooltip='Show items with the tag "computing"'>
+        computing
+      </a>
+    
+      <a href="/ris/blog?search=%22tag:%20deep-learning%22" class="tag" data-tooltip='Show items with the tag "deep-learning"'>
+        deep-learning
+      </a>
+    
+      <a href="/ris/blog?search=%22tag:%20training%22" class="tag" data-tooltip='Show items with the tag "training"'>
+        training
+      </a>
+    
+      <a href="/ris/blog?search=%22tag:%20terminal%22" class="tag" data-tooltip='Show items with the tag "terminal"'>
+        terminal
+      </a>
+    
+  </div>
+
+
+
+
+
+      
+      
+      <p data-search="tmux Tutorial Simple amp; Practical tmux is a terminal multiplexer. In short: You can run multiple terminal sessions and keep them alive even if SSH disconnects.This tutorial focuses only on the most important things: Create session Detach Attach Delete session Scroll terminal output1 Start a New tmux SessionCreate a session with a nametmux new -s mysessionYou are now inside tmux.2 Detach from a Session Leave tmux running Detach means: Session keeps running in backgroundKey combinationCtrl b then d3 List Existing Sessionstmux ls4 Attach to an Existing Sessiontmux a -t mysession5 Kill Delete a SessionKill a specific session by nametmux kill-session -t mysessionKill all tmux sessionstmux kill-server This will terminate all running tmux sessions.6 Scroll Terminal Output Very Important By default, mouse scrolling does NOT work in tmux.Enter scroll copy modeCtrl b then Now you can: Scroll with Arrow keys Page Up Page Down Use mouse wheel if mouse enabled Exit scroll modeq">
+        🧩 tmux Tutorial (Simple &amp; Practical)
 
       </p>
     </div>

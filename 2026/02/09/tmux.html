@@ -43,31 +43,31 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Example post 2 | Research and Innovation Services (RIS)</title>
+<title>How To Use Tmux | Research and Innovation Services (RIS)</title>
 
 <link rel="icon" href="/ris/images/icon.png">
 
-<meta name="title" content="Example post 2">
+<meta name="title" content="How To Use Tmux">
 <meta name="description" content="An engaging 1-3 sentence description of your lab.">
 
-<meta property="og:title" content="Example post 2">
+<meta property="og:title" content="How To Use Tmux">
 <meta property="og:site_title" content="Research and Innovation Services (RIS)">
 <meta property="og:description" content="An engaging 1-3 sentence description of your lab.">
 <meta property="og:url" content="https://luthfi-ramadhan.github.io/ris">
 <meta property="og:image" content="/ris/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Example post 2">
+<meta property="twitter:title" content="How To Use Tmux">
 <meta property="twitter:description" content="An engaging 1-3 sentence description of your lab.">
 <meta property="twitter:url" content="https://luthfi-ramadhan.github.io/ris">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/ris/images/share.jpg">
 
 
-  <meta name="author" content="jane-smith">
+  <meta name="author" content="Mgs. M. Luthfi Ramadhan">
   <meta property="og:type" content="article">
   <meta property="og:updated_time" content="2026-02-09T15:35:19+00:00">
-  <meta property="article:published_time" content="2021-09-30T00:00:00+00:00">
+  <meta property="article:published_time" content="2026-02-09T00:00:00+00:00">
   <meta property="article:modified_time" content="2026-02-09T15:35:19+00:00">
   <meta name="revised" content="2026-02-09T15:35:19+00:00">
 
@@ -77,13 +77,13 @@
     "@context": "https://schema.org",
     
       "@type": "BlogPosting",
-      "author": { "@type": "Person", "name": "Example post 2" },
-      "datePublished": "2021-09-30T00:00:00+00:00",
+      "author": { "@type": "Person", "name": "How To Use Tmux" },
+      "datePublished": "2026-02-09T00:00:00+00:00",
       "dateModified": "2026-02-09T15:35:19+00:00",
     
-    "name": "Example post 2",
+    "name": "How To Use Tmux",
     "description": "An engaging 1-3 sentence description of your lab.",
-    "headline": "Example post 2",
+    "headline": "How To Use Tmux",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/ris/images/icon.png" }
@@ -415,7 +415,7 @@
 -->
 
 
-<h1 class="center">Example post 2</h1>
+<h1 class="center">How To Use Tmux</h1>
 
 <div class="post-info">
   
@@ -425,7 +425,7 @@
       
         <span data-tooltip="Author">
           <i class="icon fa-solid fa-feather-pointed"></i>
-          <span>jane-smith</span>
+          <span>mgs. m. luthfi ramadhan</span>
         </span>
       
     
@@ -437,17 +437,36 @@
   
     <span data-tooltip="Originally published on">
       <i class="icon fa-regular fa-calendar"></i>
-      <span>September 30, 2021</span>
+      <span>February 09, 2026</span>
     </span>
   
 
   
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>February 09, 2026</span>
-    </span>
-  
 </div>
+
+
+  
+
+
+  <div class="tags">
+    
+      <a href="/ris/blog?search=%22tag:%20computing%22" class="tag" data-tooltip='Show items with the tag "computing"'>
+        computing
+      </a>
+    
+      <a href="/ris/blog?search=%22tag:%20deep-learning%22" class="tag" data-tooltip='Show items with the tag "deep-learning"'>
+        deep-learning
+      </a>
+    
+      <a href="/ris/blog?search=%22tag:%20training%22" class="tag" data-tooltip='Show items with the tag "training"'>
+        training
+      </a>
+    
+      <a href="/ris/blog?search=%22tag:%20terminal%22" class="tag" data-tooltip='Show items with the tag "terminal"'>
+        terminal
+      </a>
+    
+  </div>
   </section>
 
   
@@ -462,7 +481,78 @@
 -->
 
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<h1 id="-tmux-tutorial-simple--practical">🧩 tmux Tutorial (Simple &amp; Practical)</h1>
+
+<p><code class="language-plaintext highlighter-rouge">tmux</code> is a terminal multiplexer. In short:<br>
+👉 <strong>You can run multiple terminal sessions and keep them alive even if SSH disconnects.</strong></p>
+
+<p>This tutorial focuses only on the <strong>most important things</strong>:</p>
+<ul>
+  <li>Create session</li>
+  <li>Detach</li>
+  <li>Attach</li>
+  <li>Delete session</li>
+  <li>Scroll terminal output</li>
+</ul>
+
+<hr>
+
+<h2 id="1️⃣-start-a-new-tmux-session">1️⃣ Start a New tmux Session</h2>
+
+<h3 id="create-a-session-with-a-name">Create a session with a name</h3>
+
+<p><code class="language-plaintext highlighter-rouge">tmux new -s mysession</code></p>
+
+<p>You are now <strong>inside tmux</strong>.</p>
+
+<hr>
+
+<h2 id="2️⃣-detach-from-a-session-leave-tmux-running">2️⃣ Detach from a Session (Leave tmux running)</h2>
+
+<p>Detach means:<br>
+❗ <strong>Session keeps running in background</strong></p>
+
+<h3 id="key-combination">Key combination</h3>
+<p><code class="language-plaintext highlighter-rouge">Ctrl + b then d</code></p>
+
+<hr>
+
+<h2 id="3️⃣-list-existing-sessions">3️⃣ List Existing Sessions</h2>
+<p><code class="language-plaintext highlighter-rouge">tmux ls</code></p>
+
+<hr>
+
+<h2 id="4️⃣-attach-to-an-existing-session">4️⃣ Attach to an Existing Session</h2>
+<p><code class="language-plaintext highlighter-rouge">tmux a -t mysession</code></p>
+
+<hr>
+
+<h2 id="5️⃣-kill--delete-a-session">5️⃣ Kill / Delete a Session</h2>
+<h3 id="kill-a-specific-session-by-name">Kill a specific session by name</h3>
+<p><code class="language-plaintext highlighter-rouge">tmux kill-session -t mysession</code></p>
+<h3 id="kill-all-tmux-sessions">Kill <strong>all</strong> tmux sessions</h3>
+<p><code class="language-plaintext highlighter-rouge">tmux kill-server</code></p>
+
+<p>⚠️ This will terminate all running tmux sessions.</p>
+
+<hr>
+
+<h2 id="6️⃣-scroll-terminal-output-very-important">6️⃣ Scroll Terminal Output (Very Important!)</h2>
+<p>By default, mouse scrolling <strong>does NOT work</strong> in tmux.</p>
+<h3 id="enter-scroll-copy-mode">Enter scroll (copy) mode</h3>
+<p><code class="language-plaintext highlighter-rouge">Ctrl + b then [</code>
+Now you can:</p>
+<ul>
+  <li>Scroll with <strong>Arrow keys</strong>
+</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">Page Up</code> / <code class="language-plaintext highlighter-rouge">Page Down</code>
+</li>
+  <li>Use mouse wheel (if mouse enabled)</li>
+</ul>
+
+<h3 id="exit-scroll-mode">Exit scroll mode</h3>
+<p><code class="language-plaintext highlighter-rouge">q</code></p>
   </section>
 
   
@@ -480,13 +570,13 @@
 <div class="post-nav">
   <span>
     
+      <i class="icon fa-solid fa-angle-left"></i> Previous post<br>
+      <a href="/ris/2026/02/09/hyperparameter.html">
+        Hyperparameter Search The Cool Way
+      </a>
+    
   </span>
   <span>
-    
-      Next post <i class="icon fa-solid fa-angle-right"></i><br>
-      <a href="/ris/2023/02/23/example-post-3.html">
-        Example post 3
-      </a>
     
   </span>
 </div>
