@@ -5,6 +5,7 @@ tags:
   - computing
   - deep learning
   - training
+  - experiment
 ---
 
 # 🔍 Hyperparameter Search Using `script.sh` (Memory-Safe Approach)
@@ -35,12 +36,16 @@ Problems:
 - Hard to recover from crashes
 - You have to delete each variable manually and collect the garbage
 
+---
+
 ## 2️⃣ Recommended Way
 ✅ One experiment = one Python process
 
 We use:
 - `train.py` → train one configuration
 - `script.sh` → launch many runs with different hyperparameter
+
+---
 
 ## 3️⃣ train.py: Single-Run Training Script
 Your Python script must:
@@ -70,6 +75,8 @@ model.fit(
 )
 ```
 
+---
+
 ## 4️⃣ script.sh: Grid Search Controller
 This script controls the experiment space.
 
@@ -92,7 +99,7 @@ done
 ```
 `#!/bin/bash` is a must and should be placed on the very first line of the `.sh` script.
 
-
+---
 
 ## 5️⃣ Run your script
 ⚠️ Make executable (Very Important!!!):
@@ -101,9 +108,13 @@ Go to your terminal and run `chmod +x script.sh`
 
 Running your script with the following syntax: `./script.sh`
 
+---
+
 ## 6️⃣ This Is Memory-Safe
 Each loop:
 - Launches a new Python process
 - TensorFlow releases GPU memory on exit
 - No graph accumulation
 - No manual `del model`
+
+---
