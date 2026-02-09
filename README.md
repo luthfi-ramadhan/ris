@@ -5,6 +5,6 @@
 
   # luthfi-ramadhan's Website
 
-  Visit **[website url](#)** 🚀
+  Visit **[luthfi-ramadhan.github.io/ris](https://luthfi-ramadhan.github.io/ris)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
