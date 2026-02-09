@@ -1,9 +1,13 @@
 ---
 ---
 
-# luthfi-ramadhan's Website
+# Research and Innovation Services (RIS)'s Website
 
-An engaging 1-3 sentence description of your lab.
+Research and Innovation Services (RIS) adalah unit layanan Laboratorium High Performance Computer
+(HPC) di Fakultas Ilmu Komputer Universitas Sriwijaya. RIS didedikasikan untuk mendukung dan
+mendorong kegiatan penelitian serta inovasi di lingkungan akademik Fasilkom. Layanan ini ditujukan
+bagi para peneliti, dosen, dan mahasiswa yang membutuhkan fasilitas komputasi berkinerja tinggi.
+Persiapan RIS dilakukan sejak tahun 2024 dan diluncurkan secara soft launch pada 11 Februari 2025.
 
 {% include section.html %}
 
