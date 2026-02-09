@@ -489,13 +489,95 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
         medicine
       </a>
     
-      <a href="/ris/blog/?search=%22tag:%20big-data%22" class="tag" data-tooltip='Show items with the tag "big-data"'>
-        big-data
+      <a href="/ris/blog/?search=%22tag:%20computing%22" class="tag" data-tooltip='Show items with the tag "computing"'>
+        computing
+      </a>
+    
+      <a href="/ris/blog/?search=%22tag:%20deep-learning%22" class="tag" data-tooltip='Show items with the tag "deep-learning"'>
+        deep-learning
+      </a>
+    
+      <a href="/ris/blog/?search=%22tag:%20training%22" class="tag" data-tooltip='Show items with the tag "training"'>
+        training
       </a>
     
   </div>
 
 <div class="search-info"></div>
+
+<h3 id="2026">2026</h3>
+
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
+
+    
+
+    <div class="post-excerpt-text">
+      <a href="/ris/2026/02/09/example-post-1.html">Hyperparameter Search The Cool Way</a>
+
+      <div class="post-info">
+  
+    
+    
+      
+      
+        <span data-tooltip="Author">
+          <i class="icon fa-solid fa-feather-pointed"></i>
+          <span>mgs. m. luthfi ramadhan</span>
+        </span>
+      
+    
+  
+
+  
+  
+
+  
+    <span data-tooltip="Originally published on">
+      <i class="icon fa-regular fa-calendar"></i>
+      <span>February 09, 2026</span>
+    </span>
+  
+
+  
+</div>
+
+
+  
+
+
+  <div class="tags">
+    
+      <a href="/ris/blog?search=%22tag:%20computing%22" class="tag" data-tooltip='Show items with the tag "computing"'>
+        computing
+      </a>
+    
+      <a href="/ris/blog?search=%22tag:%20deep-learning%22" class="tag" data-tooltip='Show items with the tag "deep-learning"'>
+        deep-learning
+      </a>
+    
+      <a href="/ris/blog?search=%22tag:%20training%22" class="tag" data-tooltip='Show items with the tag "training"'>
+        training
+      </a>
+    
+  </div>
+
+
+
+
+
+      
+      
+      <p data-search="Hyperparameter Search Using script.sh Memory-Safe Approach Hyperparameter search is done via shell scripts, not Python loops.This avoids: GPU RAM memory explosion TensorFlow graph accumulation Zombie processes after many experiments Garbage collecting, you are not a sanitation worker Each run is a fresh Python process.1 Why NOT Grid Search Inside Python Bad practice:for lr in 1e-3, 1e-4 : for bs in 16, 32 : model build model model.fit ... Problems: GPU memory not fully released This will literally crash you TensorFlow graph grows Hard to recover from crashes You have to delete each variable manually and collect the garbage2 Recommended Way One experiment one Python processWe use: train.py train one configuration script.sh launch many runs with different hyperparameter3 train.py: Single-Run Training ScriptYour Python script must: Accept hyperparameters as arguments Train exactly one model Exit cleanlyExample: train.pyimport sysimport tensorflow as tfbatch int sys.argv 1 lr float sys.argv 2 SEED int sys.argv 3 set global determinism seed SEED model build model learning rate lr model.fit x x train, y y train, batch size batch, epochs 250 4 script.sh: Grid Search ControllerThis script controls the experiment space.Example: script.sh bin bashlr pool 0.001 0.0005 0.0001 batch pool 16 32 SEED 42for batch in batch pool do for lr in lr pool do python train.py batch lr SEED donedone bin bash is a must and should be placed on the very first line of the .sh script.5 Run your script Make executable Very Important :Go to your terminal and run chmod x script.shRunning your script with the following syntax: . script.sh6 This Is Memory-SafeEach loop: Launches a new Python process TensorFlow releases GPU memory on exit No graph accumulation No manual del model">
+        🔍 Hyperparameter Search Using script.sh (Memory-Safe Approach)
+
+      </p>
+    </div>
+  </div>
+</div>
 
 <h3 id="2023">2023</h3>
 
@@ -624,85 +706,6 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
   
 
-
-
-
-
-
-      
-      
-      <p data-search="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-      </p>
-    </div>
-  </div>
-</div>
-
-<h3 id="2019">2019</h3>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-
-    <div class="post-excerpt-text">
-      <a href="/ris/2019/01/07/example-post-1.html">Example post 1</a>
-
-      <div class="post-info">
-  
-    
-    
-      
-      
-        <span data-tooltip="Author">
-          <i class="icon fa-solid fa-feather-pointed"></i>
-          <span>sarah-johnson</span>
-        </span>
-      
-    
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>January 07, 2019</span>
-    </span>
-  
-
-  
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>February 09, 2026</span>
-    </span>
-  
-</div>
-
-
-  
-
-
-  <div class="tags">
-    
-      <a href="/ris/blog?search=%22tag:%20biology%22" class="tag" data-tooltip='Show items with the tag "biology"'>
-        biology
-      </a>
-    
-      <a href="/ris/blog?search=%22tag:%20medicine%22" class="tag" data-tooltip='Show items with the tag "medicine"'>
-        medicine
-      </a>
-    
-      <a href="/ris/blog?search=%22tag:%20big-data%22" class="tag" data-tooltip='Show items with the tag "big-data"'>
-        big-data
-      </a>
-    
-  </div>
 
 
 

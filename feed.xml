@@ -1,1 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://luthfi-ramadhan.github.io/ris/feed.xml" rel="self" type="application/atom+xml" /><link href="https://luthfi-ramadhan.github.io/ris/" rel="alternate" type="text/html" /><updated>2026-02-09T15:18:58+00:00</updated><id>https://luthfi-ramadhan.github.io/ris/feed.xml</id><title type="html">Research and Innovation Services (RIS)</title><subtitle>An engaging 1-3 sentence description of your lab.</subtitle><entry><title type="html">Example post 3</title><link href="https://luthfi-ramadhan.github.io/ris/2023/02/23/example-post-3.html" rel="alternate" type="text/html" title="Example post 3" /><published>2023-02-23T00:00:00+00:00</published><updated>2026-02-09T15:17:07+00:00</updated><id>https://luthfi-ramadhan.github.io/ris/2023/02/23/example-post-3</id><content type="html" xml:base="https://luthfi-ramadhan.github.io/ris/2023/02/23/example-post-3.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>]]></content><author><name>john-doe</name></author><category term="biology," /><category term="medicine" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://luthfi-ramadhan.github.io/ris/images/photo.jpg" /><media:content medium="image" url="https://luthfi-ramadhan.github.io/ris/images/photo.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Example post 2</title><link href="https://luthfi-ramadhan.github.io/ris/2021/09/30/example-post-2.html" rel="alternate" type="text/html" title="Example post 2" /><published>2021-09-30T00:00:00+00:00</published><updated>2026-02-09T15:17:07+00:00</updated><id>https://luthfi-ramadhan.github.io/ris/2021/09/30/example-post-2</id><content type="html" xml:base="https://luthfi-ramadhan.github.io/ris/2021/09/30/example-post-2.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>]]></content><author><name>jane-smith</name></author><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></summary></entry><entry><title type="html">Example post 1</title><link href="https://luthfi-ramadhan.github.io/ris/2019/01/07/example-post-1.html" rel="alternate" type="text/html" title="Example post 1" /><published>2019-01-07T00:00:00+00:00</published><updated>2026-02-09T15:17:07+00:00</updated><id>https://luthfi-ramadhan.github.io/ris/2019/01/07/example-post-1</id><content type="html" xml:base="https://luthfi-ramadhan.github.io/ris/2019/01/07/example-post-1.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>]]></content><author><name>sarah-johnson</name></author><category term="biology" /><category term="medicine" /><category term="big data" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://luthfi-ramadhan.github.io/ris/feed.xml" rel="self" type="application/atom+xml" /><link href="https://luthfi-ramadhan.github.io/ris/" rel="alternate" type="text/html" /><updated>2026-02-09T15:28:37+00:00</updated><id>https://luthfi-ramadhan.github.io/ris/feed.xml</id><title type="html">Research and Innovation Services (RIS)</title><subtitle>An engaging 1-3 sentence description of your lab.</subtitle><entry><title type="html">Hyperparameter Search The Cool Way</title><link href="https://luthfi-ramadhan.github.io/ris/2026/02/09/example-post-1.html" rel="alternate" type="text/html" title="Hyperparameter Search The Cool Way" /><published>2026-02-09T00:00:00+00:00</published><updated>2026-02-09T15:27:53+00:00</updated><id>https://luthfi-ramadhan.github.io/ris/2026/02/09/example-post-1</id><content type="html" xml:base="https://luthfi-ramadhan.github.io/ris/2026/02/09/example-post-1.html"><![CDATA[<h1 id="-hyperparameter-search-using-scriptsh-memory-safe-approach">🔍 Hyperparameter Search Using <code class="language-plaintext highlighter-rouge">script.sh</code> (Memory-Safe Approach)</h1>
+
+<p>Hyperparameter search is done via shell scripts, not Python loops.<br />
+This avoids:</p>
+<ul>
+  <li>GPU / RAM memory explosion</li>
+  <li>TensorFlow graph accumulation</li>
+  <li>Zombie processes after many experiments</li>
+  <li>Garbage collecting, you are not a sanitation worker!!!</li>
+</ul>
+
+<p>Each run is a fresh Python process.</p>
+
+<hr />
+
+<h2 id="1️⃣-why-not-grid-search-inside-python">1️⃣ Why NOT Grid Search Inside Python?</h2>
+
+<p>❌ Bad practice:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">lr</span> <span class="ow">in</span> <span class="p">[</span><span class="mf">1e-3</span><span class="p">,</span> <span class="mf">1e-4</span><span class="p">]:</span>
+    <span class="k">for</span> <span class="n">bs</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">16</span><span class="p">,</span> <span class="mi">32</span><span class="p">]:</span>
+        <span class="n">model</span> <span class="o">=</span> <span class="n">build_model</span><span class="p">()</span>
+        <span class="n">model</span><span class="p">.</span><span class="n">fit</span><span class="p">(...)</span>
+</code></pre></div></div>
+<p>Problems:</p>
+<ul>
+  <li>GPU memory not fully released (This will literally crash you)</li>
+  <li>TensorFlow graph grows</li>
+  <li>Hard to recover from crashes</li>
+  <li>You have to delete each variable manually and collect the garbage</li>
+</ul>
+
+<h2 id="2️⃣-recommended-way">2️⃣ Recommended Way</h2>
+<p>✅ One experiment = one Python process</p>
+
+<p>We use:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">train.py</code> → train one configuration</li>
+  <li><code class="language-plaintext highlighter-rouge">script.sh</code> → launch many runs with different hyperparameter</li>
+</ul>
+
+<h2 id="3️⃣-trainpy-single-run-training-script">3️⃣ train.py: Single-Run Training Script</h2>
+<p>Your Python script must:</p>
+<ul>
+  <li>Accept hyperparameters as arguments</li>
+  <li>Train exactly one model</li>
+  <li>Exit cleanly</li>
+</ul>
+
+<p>Example: <code class="language-plaintext highlighter-rouge">train.py</code></p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="n">tf</span>
+
+
+<span class="n">batch</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+<span class="n">lr</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+<span class="n">SEED</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span>
+
+
+<span class="n">set_global_determinism</span><span class="p">(</span><span class="n">seed</span><span class="o">=</span><span class="n">SEED</span><span class="p">)</span>
+
+<span class="n">model</span> <span class="o">=</span> <span class="n">build_model</span><span class="p">(</span><span class="n">learning_rate</span><span class="o">=</span><span class="n">lr</span><span class="p">)</span>
+<span class="n">model</span><span class="p">.</span><span class="n">fit</span><span class="p">(</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">x_train</span><span class="p">,</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="n">y_train</span><span class="p">,</span>
+    <span class="n">batch_size</span> <span class="o">=</span> <span class="n">batch</span><span class="p">,</span>
+    <span class="n">epochs</span> <span class="o">=</span> <span class="mi">250</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="4️⃣-scriptsh-grid-search-controller">4️⃣ script.sh: Grid Search Controller</h2>
+<p>This script controls the experiment space.</p>
+
+<p>Example: <code class="language-plaintext highlighter-rouge">script.sh</code></p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+
+<span class="nv">lr_pool</span><span class="o">=(</span><span class="s2">"0.001"</span> <span class="s2">"0.0005"</span> <span class="s2">"0.0001"</span><span class="o">)</span>
+<span class="nv">batch_pool</span><span class="o">=(</span><span class="s2">"16"</span> <span class="s2">"32"</span><span class="o">)</span>
+<span class="nv">SEED</span><span class="o">=</span>42
+
+<span class="k">for </span>batch <span class="k">in</span> <span class="k">${</span><span class="nv">batch_pool</span><span class="p">[@]</span><span class="k">}</span>
+    <span class="k">do
+    for </span>lr <span class="k">in</span> <span class="k">${</span><span class="nv">lr_pool</span><span class="p">[@]</span><span class="k">}</span>
+    <span class="k">do
+        </span>python train.py <span class="s2">"</span><span class="nv">$batch</span><span class="s2">"</span> <span class="s2">"</span><span class="nv">$lr</span><span class="s2">"</span> <span class="s2">"</span><span class="nv">$SEED</span><span class="s2">"</span>
+    <span class="k">done
+done</span>
+
+</code></pre></div></div>
+<p><code class="language-plaintext highlighter-rouge">#!/bin/bash</code> is a must and should be placed on the very first line of the <code class="language-plaintext highlighter-rouge">.sh</code> script.</p>
+
+<h2 id="5️⃣-run-your-script">5️⃣ Run your script</h2>
+<p>⚠️ Make executable (Very Important!!!):</p>
+
+<p>Go to your terminal and run <code class="language-plaintext highlighter-rouge">chmod +x script.sh</code></p>
+
+<p>Running your script with the following syntax: <code class="language-plaintext highlighter-rouge">./script.sh</code></p>
+
+<h2 id="6️⃣-this-is-memory-safe">6️⃣ This Is Memory-Safe</h2>
+<p>Each loop:</p>
+<ul>
+  <li>Launches a new Python process</li>
+  <li>TensorFlow releases GPU memory on exit</li>
+  <li>No graph accumulation</li>
+  <li>No manual <code class="language-plaintext highlighter-rouge">del model</code></li>
+</ul>]]></content><author><name>Mgs. M. Luthfi Ramadhan</name></author><category term="computing" /><category term="deep learning" /><category term="training" /><summary type="html"><![CDATA[🔍 Hyperparameter Search Using script.sh (Memory-Safe Approach)]]></summary></entry><entry><title type="html">Example post 3</title><link href="https://luthfi-ramadhan.github.io/ris/2023/02/23/example-post-3.html" rel="alternate" type="text/html" title="Example post 3" /><published>2023-02-23T00:00:00+00:00</published><updated>2026-02-09T15:27:53+00:00</updated><id>https://luthfi-ramadhan.github.io/ris/2023/02/23/example-post-3</id><content type="html" xml:base="https://luthfi-ramadhan.github.io/ris/2023/02/23/example-post-3.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>]]></content><author><name>john-doe</name></author><category term="biology," /><category term="medicine" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://luthfi-ramadhan.github.io/ris/images/photo.jpg" /><media:content medium="image" url="https://luthfi-ramadhan.github.io/ris/images/photo.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Example post 2</title><link href="https://luthfi-ramadhan.github.io/ris/2021/09/30/example-post-2.html" rel="alternate" type="text/html" title="Example post 2" /><published>2021-09-30T00:00:00+00:00</published><updated>2026-02-09T15:27:53+00:00</updated><id>https://luthfi-ramadhan.github.io/ris/2021/09/30/example-post-2</id><content type="html" xml:base="https://luthfi-ramadhan.github.io/ris/2021/09/30/example-post-2.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>]]></content><author><name>jane-smith</name></author><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></summary></entry></feed>
