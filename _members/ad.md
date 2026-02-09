@@ -1,13 +1,9 @@
 ---
-name: Jane Smith
+name: Dr. Annisa Darmawahyuni, S.Kom., M.Kom.
 image: images/photo.jpg
-role: principal-investigator
-affiliation: University of Colorado
-aliases:
-  - J. Smith
-  - J Smith
+role: Member
+affiliation: Department of Informatics Engineering, Sriwijaya University, Palembang, Indonesia.
 links:
-  home-page: https://janesmith.com
   orcid: 0000-0001-8713-9213
 ---
 
