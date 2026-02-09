@@ -1,7 +1,7 @@
 ---
 ---
 
-# Research and Innovation Services (RIS)'s Website
+# Research and Innovation Services (RIS)
 
 Research and Innovation Services (RIS) adalah unit layanan Laboratorium High Performance Computer
 (HPC) di Fakultas Ilmu Komputer Universitas Sriwijaya. RIS didedikasikan untuk mendukung dan
