@@ -1,10 +1,10 @@
 ---
-name: Dr. Rossi Passarella, S.T., M.Eng.
+name: Mgs. M. Luthfi Ramadhan, M.Kom.
 image: images/photo.jpg
 role: Member
-affiliation: Department of Computer System, Sriwijaya University, Palembang, Indonesia.
+affiliation: Department of Informatics Engineering, Sriwijaya University, Palembang, Indonesia.
 links:
-  orcid: 0000-0001-8713-9213
+  orcid: 0000-0001-8571-8924
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

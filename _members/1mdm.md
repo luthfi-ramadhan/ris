@@ -1,10 +1,10 @@
 ---
-name: Mgs. M. Luthfi Ramadhan, M.Kom.
+name: Mastura Diana Marieska, S.T., M.T.
 image: images/photo.jpg
-role: Member
+role: Head of Laboratory
 affiliation: Department of Informatics Engineering, Sriwijaya University, Palembang, Indonesia.
 links:
-  orcid: 0000-0001-8713-9213
+  orcid: 0009-0002-7768-0238
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

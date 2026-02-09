@@ -1,10 +1,10 @@
 ---
-name: Mastura Diana Marieska, S.T., M.T.
+name: Dr. Rossi Passarella, S.T., M.Eng.
 image: images/photo.jpg
-role: Head of Laboratory
-affiliation: Department of Informatics Engineering, Sriwijaya University, Palembang, Indonesia.
+role: Member
+affiliation: Department of Computer System, Sriwijaya University, Palembang, Indonesia.
 links:
-  orcid: 0000-0001-8713-9213
+  orcid: 	0000-0002-7243-0451
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
