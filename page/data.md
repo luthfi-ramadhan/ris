@@ -5,7 +5,7 @@ permalink: /data/
 ---
 <!-- <h2>Status Peminjaman</h2> -->
 
-
+<!-- 
 <h2>Dashboard Status HPC</h2>
 
 <table id="sheet-table">
@@ -107,13 +107,13 @@ fetch(csvUrl)
     });
   })
   .catch(err => console.error("Fetch error:", err));
-</script>
+</script> -->
 
 
 
 
 
-<!-- <table border="1" id="sheet-table">
+<table border="1" id="sheet-table">
   <tbody></tbody>
 </table>
 
@@ -138,5 +138,5 @@ fetch("https://docs.google.com/spreadsheets/d/e/2PACX-1vSyP3lQOEf0soz2vU0XezrIZ9
     });
   })
   .catch(error => console.error("Error:", error));
-</script> -->
+</script>
 
