@@ -43,47 +43,39 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Example post 2 | Research and Innovation Services (RIS)</title>
+<title>Formulir | Research and Innovation Services (RIS)</title>
 
 <link rel="icon" href="/ris/images/icon.png">
 
-<meta name="title" content="Example post 2">
+<meta name="title" content="Formulir">
 <meta name="description" content="An engaging 1-3 sentence description of your lab.">
 
-<meta property="og:title" content="Example post 2">
+<meta property="og:title" content="Formulir">
 <meta property="og:site_title" content="Research and Innovation Services (RIS)">
 <meta property="og:description" content="An engaging 1-3 sentence description of your lab.">
 <meta property="og:url" content="https://luthfi-ramadhan.github.io/ris">
 <meta property="og:image" content="/ris/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Example post 2">
+<meta property="twitter:title" content="Formulir">
 <meta property="twitter:description" content="An engaging 1-3 sentence description of your lab.">
 <meta property="twitter:url" content="https://luthfi-ramadhan.github.io/ris">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/ris/images/share.jpg">
 
 
-  <meta name="author" content="jane-smith">
-  <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2026-02-13T15:58:07+00:00">
-  <meta property="article:published_time" content="2021-09-30T00:00:00+00:00">
-  <meta property="article:modified_time" content="2026-02-13T15:58:07+00:00">
-  <meta name="revised" content="2026-02-13T15:58:07+00:00">
+  <meta property="og:type" content="website">
 
 
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     
-      "@type": "BlogPosting",
-      "author": { "@type": "Person", "name": "Example post 2" },
-      "datePublished": "2021-09-30T00:00:00+00:00",
-      "dateModified": "2026-02-13T15:58:07+00:00",
+      "@type": "WebSite",
     
-    "name": "Example post 2",
+    "name": "Formulir",
     "description": "An engaging 1-3 sentence description of your lab.",
-    "headline": "Example post 2",
+    "headline": "Formulir",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/ris/images/icon.png" }
@@ -294,6 +286,60 @@
     <link href="/ris/_styles/util.css" rel="stylesheet">
   
 
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -407,88 +453,35 @@
   
   
 
-  <section class="background" data-size="1">
-    <!--
-  <background></background>
-  <dark></dark>
-  <size>1</size>
--->
-
-
-<h1 class="center">Example post 2</h1>
-
-<div class="post-info">
-  
-    
-    
-      
-      
-        <span data-tooltip="Author">
-          <i class="icon fa-solid fa-feather-pointed"></i>
-          <span>jane-smith</span>
-        </span>
-      
-    
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>September 30, 2021</span>
-    </span>
-  
-
-  
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>February 13, 2026</span>
-    </span>
-  
-</div>
-  </section>
-
-  
-  
-  
-
   <section class="background" data-size="page">
-    <!--
-  <background></background>
-  <dark></dark>
-  <size></size>
--->
+    <div class="form-container">
+  <h2>Formulir Pendaftaran</h2>
 
+  <!-- Ganti action dengan endpoint Formspree -->
+  <form action="https://formspree.io/f/YOUR_ID" method="POST">
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  </section>
+    <label>Nama Lengkap</label>
+    <input type="text" name="nama" required="">
 
-  
-  
-  
+    <label>Email</label>
+    <input type="email" name="email" required="">
 
-  <section class="background" data-size="page">
-    <!--
-  <background></background>
-  <dark></dark>
-  <size></size>
--->
+    <label>Nomor HP</label>
+    <input type="tel" name="no_hp">
 
+    <label>Keperluan</label>
+    <select name="keperluan">
+      <option value="konsultasi">Konsultasi</option>
+      <option value="pendaftaran">Pendaftaran</option>
+      <option value="lainnya">Lainnya</option>
+    </select>
 
-<div class="post-nav">
-  <span>
-    
-  </span>
-  <span>
-    
-      Next post <i class="icon fa-solid fa-angle-right"></i><br>
-      <a href="/ris/2023/02/23/example-post-3.html">
-        Example post 3
-      </a>
-    
-  </span>
+    <label>Pesan</label>
+    <textarea name="pesan" rows="4"></textarea>
+
+    <button type="submit">Kirim</button>
+
+  </form>
 </div>
   </section>
 
