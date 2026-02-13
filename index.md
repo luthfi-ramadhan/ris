@@ -26,7 +26,7 @@ A real-time overview of High Performance Computing (HPC) resources and their cur
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/alloc.jpg"
   link="allocation-status"
   title="HPC Resource Allocation Status"
   text=text
