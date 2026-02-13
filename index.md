@@ -33,7 +33,7 @@ A real-time overview of High Performance Computing (HPC) resources and their cur
 %}
 
 
-{% capture text %}
+<!-- {% capture text %}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
@@ -54,7 +54,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   link="research"
   title="Our Research"
   text=text
-%}
+%} -->
 
 {% capture text %}
 
