@@ -72,7 +72,7 @@ fetch("https://docs.google.com/spreadsheets/d/e/2PACX-1vSyP3lQOEf0soz2vU0XezrIZ9
       // REGEX CSV SPLIT YANG AMAN
       const cols = row.match(/(".*?"|[^",]+)(?=\s*,|\s*$)/g);
 
-      if(!cols || cols.length < 5) return;
+      // if(!cols || cols.length < 5) return;
 
       const hpc = cols[0].replace(/"/g,'').trim();
       const status = cols[1].replace(/"/g,'').trim();
