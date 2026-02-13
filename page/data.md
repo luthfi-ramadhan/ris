@@ -14,7 +14,7 @@ permalink: /data/
 </table>
 
 <script>
-fetch("https://docs.google.com/spreadsheets/d/e/2PACX-1vSyP3lQOEf0soz2vU0XezrIZ9JXM_y0Jm1yczzHLGWkzRjlQX8yXCnP8Dky1_qWipQaOUE945LrlVxU/pubhtml?gid=2090281700&single=true")
+fetch("https://docs.google.com/spreadsheets/d/e/2PACX-1vSyP3lQOEf0soz2vU0XezrIZ9JXM_y0Jm1yczzHLGWkzRjlQX8yXCnP8Dky1_qWipQaOUE945LrlVxU/pub?gid=2090281700&single=true&output=csv")
   .then(response => response.text())
   .then(data => {
     const rows = data.trim().split("\n");
