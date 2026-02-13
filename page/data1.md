@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Status Peminjam
-permalink: /data/
+permalink: /data1/
 ---
 <!-- <h2>Status Peminjaman</h2> -->
 

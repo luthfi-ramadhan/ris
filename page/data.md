@@ -69,7 +69,7 @@ fetch(csvUrl)
       const sisa = parseInt(row[3]);
 
       // hanya tampilkan yang sedang Dipinjam
-      if(status !== "Dipinjam") return;
+    //   if(status !== "Dipinjam") return;
 
       const tr = document.createElement("tr");
 
