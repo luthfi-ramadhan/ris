@@ -91,15 +91,15 @@ fetch(csvUrl)
         <td>${badge}</td>
         <td>${start}</td>
         <td>${end}</td>
-        <td>${isNaN(sisa) ? "-" : sisa}</td>
+        <td>${sisa}</td>
       `;
 
       // warna berdasarkan sisa hari (hanya jika Dipinjam)
-      if(statusRaw === "Dipinjam" && !isNaN(sisa)) {
-        if(sisa < 0) tr.classList.add("overdue");
-        else if(sisa <= 3) tr.classList.add("warning");
-        else tr.classList.add("safe");
-      }
+      // if(statusRaw === "Dipinjam" && !isNaN(sisa)) {
+      //   if(sisa < 0) tr.classList.add("overdue");
+      //   else if(sisa <= 3) tr.classList.add("warning");
+      //   else tr.classList.add("safe");
+      // }
 
       tbody.appendChild(tr);
     });
