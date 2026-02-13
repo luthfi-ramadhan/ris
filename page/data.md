@@ -5,7 +5,7 @@ permalink: /data/
 ---
 <!-- <h2>Status Peminjaman</h2> -->
 
-<!-- 
+
 <h2>Dashboard Status HPC</h2>
 
 <table id="sheet-table">
@@ -61,9 +61,7 @@ permalink: /data/
 
 
 <script>
-const csvUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSyP3lQOEf0soz2vU0XezrIZ9JXM_y0Jm1yczzHLGWkzRjlQX8yXCnP8Dky1_qWipQaOUE945LrlVxU/pub?gid=2090281700&single=true&output=csv";
-
-fetch(csvUrl)
+fetch("https://docs.google.com/spreadsheets/d/e/2PACX-1vSyP3lQOEf0soz2vU0XezrIZ9JXM_y0Jm1yczzHLGWkzRjlQX8yXCnP8Dky1_qWipQaOUE945LrlVxU/pub?gid=2090281700&single=true&output=csv")
   .then(res => res.text())
   .then(text => {
     const rows = text.trim().split("\n");
@@ -107,13 +105,13 @@ fetch(csvUrl)
     });
   })
   .catch(err => console.error("Fetch error:", err));
-</script> -->
+</script>
 
 
 
 
 
-<table border="1" id="sheet-table">
+<!-- <table border="1" id="sheet-table">
   <tbody></tbody>
 </table>
 
@@ -138,5 +136,5 @@ fetch("https://docs.google.com/spreadsheets/d/e/2PACX-1vSyP3lQOEf0soz2vU0XezrIZ9
     });
   })
   .catch(error => console.error("Error:", error));
-</script>
+</script> -->
 
