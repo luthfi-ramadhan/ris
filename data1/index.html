@@ -43,47 +43,39 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Example post 3 | Research and Innovation Services (RIS)</title>
+<title>Status Peminjam | Research and Innovation Services (RIS)</title>
 
 <link rel="icon" href="/ris/images/icon.png">
 
-<meta name="title" content="Example post 3">
+<meta name="title" content="Status Peminjam">
 <meta name="description" content="An engaging 1-3 sentence description of your lab.">
 
-<meta property="og:title" content="Example post 3">
+<meta property="og:title" content="Status Peminjam">
 <meta property="og:site_title" content="Research and Innovation Services (RIS)">
 <meta property="og:description" content="An engaging 1-3 sentence description of your lab.">
 <meta property="og:url" content="https://luthfi-ramadhan.github.io/ris">
 <meta property="og:image" content="/ris/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Example post 3">
+<meta property="twitter:title" content="Status Peminjam">
 <meta property="twitter:description" content="An engaging 1-3 sentence description of your lab.">
 <meta property="twitter:url" content="https://luthfi-ramadhan.github.io/ris">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/ris/images/share.jpg">
 
 
-  <meta name="author" content="john-doe">
-  <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2026-02-13T16:59:08+00:00">
-  <meta property="article:published_time" content="2023-02-23T00:00:00+00:00">
-  <meta property="article:modified_time" content="2026-02-13T16:59:08+00:00">
-  <meta name="revised" content="2026-02-13T16:59:08+00:00">
+  <meta property="og:type" content="website">
 
 
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     
-      "@type": "BlogPosting",
-      "author": { "@type": "Person", "name": "Example post 3" },
-      "datePublished": "2023-02-23T00:00:00+00:00",
-      "dateModified": "2026-02-13T16:59:08+00:00",
+      "@type": "WebSite",
     
-    "name": "Example post 3",
+    "name": "Status Peminjam",
     "description": "An engaging 1-3 sentence description of your lab.",
-    "headline": "Example post 3",
+    "headline": "Status Peminjam",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/ris/images/icon.png" }
@@ -294,6 +286,34 @@
     <link href="/ris/_styles/util.css" rel="stylesheet">
   
 
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -407,110 +427,128 @@
   
   
 
-  <section class="background" data-size="1" style="--image: url('/ris/images/photo.jpg')">
-    <!--
-  <background>images/photo.jpg</background>
-  <dark></dark>
-  <size>1</size>
--->
-
-
-<h1 class="center">Example post 3</h1>
-
-<div class="post-info">
-  
-    
-    
-      
-      
-        <span data-tooltip="Author">
-          <i class="icon fa-solid fa-feather-pointed"></i>
-          <span>john-doe</span>
-        </span>
-      
-    
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>February 23, 2023</span>
-    </span>
-  
-
-  
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>February 13, 2026</span>
-    </span>
-  
-</div>
-
-
-  
-
-
-  <div class="tags">
-    
-      <a href="/ris/blog?search=%22tag:%20biology%22" class="tag" data-tooltip='Show items with the tag "biology"'>
-        biology
-      </a>
-    
-      <a href="/ris/blog?search=%22tag:%20medicine%22" class="tag" data-tooltip='Show items with the tag "medicine"'>
-        medicine
-      </a>
-    
-  </div>
-  </section>
-
-  
-  
-  
-
   <section class="background" data-size="page">
-    <!--
-  <background></background>
-  <dark></dark>
-  <size></size>
--->
+    <!-- <h2>Status Peminjaman</h2> -->
 
+<h2>Dashboard Status HPC</h2>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  </section>
+<table id="sheet-table">
+  <thead>
+    <tr>
+      <th onclick="sortTable(0)">HPC</th>
+      <th onclick="sortTable(1)">Status</th>
+      <th onclick="sortTable(2)">Start</th>
+      <th onclick="sortTable(3)">End</th>
+      <th onclick="sortTable(4)">Sisa Hari</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
 
-  
-  
-  
+<style>
+#sheet-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 14px;
+}
 
-  <section class="background" data-size="page">
-    <!--
-  <background></background>
-  <dark></dark>
-  <size></size>
--->
+#sheet-table th, #sheet-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
 
+#sheet-table th {
+  background: #1e1e1e;
+  color: white;
+  cursor: pointer;
+}
 
-<div class="post-nav">
-  <span>
-    
-      <i class="icon fa-solid fa-angle-left"></i> Previous post<br>
-      <a href="/ris/2021/09/30/example-post-2.html">
-        Example post 2
-      </a>
-    
-  </span>
-  <span>
-    
-      Next post <i class="icon fa-solid fa-angle-right"></i><br>
-      <a href="/ris/2026/02/09/deterministic.html">
-        Deterministic Setting
-      </a>
-    
-  </span>
-</div>
+.badge {
+  padding: 5px 10px;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.dipinjam { background: #e67e22; }
+.ready { background: #27ae60; }
+.mati { background: #c0392b; }
+
+.overdue { background: #ffdddd; }
+.warning { background: #fff3cd; }
+.safe { background: #e8f5e9; }
+</style>
+
+<script>
+const csvUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSyP3lQOEf0soz2vU0XezrIZ9JXM_y0Jm1yczzHLGWkzRjlQX8yXCnP8Dky1_qWipQaOUE945LrlVxU/pub?gid=2090281700&single=true&output=csv";
+
+fetch(csvUrl)
+  .then(res => res.text())
+  .then(text => {
+
+    console.log("RAW DATA:", text); // DEBUG
+
+    const rows = text.trim().split("\r\n"); // penting: gunakan \r\n
+    const tbody = document.querySelector("#sheet-table tbody");
+
+    rows.slice(1).forEach(row => {
+
+      // parser CSV yang aman
+      const cols = row.match\(/\(\".\*?\"|[^\",]+)\(?=\s\*,|\s\*\$)/g);
+      if\(!cols \|| cols.length < 5) return;
+
+      const hpc = cols[0].replace(/"/g,'').trim();
+      const status = cols[1].replace(/"/g,'').trim();
+      const start = cols\[2]?.replace\(/\"/g,'').trim\() \|| \"-\";
+      const end = cols\[3]?.replace\(/\"/g,'').trim\() \|| \"-\";
+      const sisa = parseInt(cols[4]);
+
+      const tr = document.createElement("tr");
+
+      tr.innerHTML = `
+        <td><strong>${hpc}</strong></td>
+        <td>${status}</td>
+        <td>${start}</td>
+        <td>${end}</td>
+        <td>${isNaN(sisa) ? "-" : sisa}</td>
+      `;
+
+      tbody.appendChild(tr);
+    });
+
+  })
+  .catch(err => console.error("Fetch error:", err));
+</script>
+
+<!-- <table border="1" id="sheet-table">
+  <tbody></tbody>
+</table>
+
+<script>
+fetch("https://docs.google.com/spreadsheets/d/e/2PACX-1vSyP3lQOEf0soz2vU0XezrIZ9JXM_y0Jm1yczzHLGWkzRjlQX8yXCnP8Dky1_qWipQaOUE945LrlVxU/pub?gid=2090281700&single=true&output=csv")
+  .then(response => response.text())
+  .then(data => {
+    const rows = data.trim().split("\n");
+    const tbody = document.querySelector("#sheet-table tbody");
+
+    rows.forEach(row => {
+      const cols = row.split(",");
+      const tr = document.createElement("tr");
+
+      cols.forEach(col => {
+        const td = document.createElement("td");
+        td.textContent = col.trim();
+        tr.appendChild(td);
+      });
+
+      tbody.appendChild(tr);
+    });
+  })
+  .catch(error => console.error("Error:", error));
+</script> -->
   </section>
 
 
