@@ -433,10 +433,11 @@
 <table id="sheet-table">
   <thead>
     <tr>
-      <th onclick="sortTable(0)">Status</th>
-      <th onclick="sortTable(1)">Start</th>
-      <th onclick="sortTable(2)">End</th>
-      <th onclick="sortTable(3)">Sisa Hari</th>
+      <th onclick="sortTable(0)">HPC</th>
+      <th onclick="sortTable(1)">Status</th>
+      <th onclick="sortTable(2)">Start</th>
+      <th onclick="sortTable(3)">End</th>
+      <th onclick="sortTable(4)">Sisa Hari</th>
     </tr>
   </thead>
   <tbody></tbody>
@@ -487,10 +488,11 @@ fetch(csvUrl)
     const tbody = document.querySelector("#sheet-table tbody");
 
     rows.slice(1).forEach(row => {
-      const status = row[0].trim();
-      const start = row[1];
-      const end = row[2];
-      const sisa = parseInt(row[3]);
+      const hpc = row[0].trim();
+      const status = row[1].trim();
+      const start = row[2];
+      const end = row[3];
+      const sisa = parseInt(row[4]);
 
       // hanya tampilkan yang sedang Dipinjam
     //   if(status !== "Dipinjam") return;
@@ -501,6 +503,7 @@ fetch(csvUrl)
       const badge = `<span class="badge dipinjam">${status}</span>`;
 
       tr.innerHTML = `
+        <td>${hpc}</td>
         <td>${badge}</td>
         <td>${start}</td>
         <td>${end}</td>
