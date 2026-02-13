@@ -61,41 +61,41 @@ permalink: /data/
 
 
 <script>
-fetch("https://docs.google.com/spreadsheets/d/e/2PACX-1vSyP3lQOEf0soz2vU0XezrIZ9JXM_y0Jm1yczzHLGWkzRjlQX8yXCnP8Dky1_qWipQaOUE945LrlVxU/pub?gid=2090281700&single=true&output=csv")
+const csvUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSyP3lQOEf0soz2vU0XezrIZ9JXM_y0Jm1yczzHLGWkzRjlQX8yXCnP8Dky1_qWipQaOUE945LrlVxU/pub?gid=2090281700&single=true&output=csv";
+
+fetch(csvUrl)
   .then(res => res.text())
-  .then(text => {
-    const rows = text.trim().split("\n");
+  .then(data => {
+    const rows = data.trim().split("\n").map(r => r.split(","));
     const tbody = document.querySelector("#sheet-table tbody");
 
     rows.slice(1).forEach(row => {
-
-      // REGEX CSV SPLIT YANG AMAN
-      const cols = row.match(/(".*?"|[^",]+)(?=\s*,|\s*$)/g);
-
-      // if(!cols || cols.length < 5) return;
-
-      const hpc = cols[0].replace(/"/g,'').trim();
-      const status = cols[1].replace(/"/g,'').trim();
-      const start = cols[2].replace(/"/g,'').trim();
-      const end = cols[3].replace(/"/g,'').trim();
-      const sisa = parseInt(cols[4]);
+      const hpc = row[0]?.trim();
+      const statusRaw = row[1]?.trim();
+      const start = row[2] || "-";
+      const end = row[3] || "-";
+      const sisa = parseInt(row[4]);
 
       const tr = document.createElement("tr");
 
+      // badge warna status
       let badgeClass = "";
-      if(status === "Dipinjam") badgeClass = "dipinjam";
-      else if(status === "ready remote") badgeClass = "ready";
-      else if(status === "Mati") badgeClass = "mati";
+      if(statusRaw === "Dipinjam") badgeClass = "dipinjam";
+      else if(statusRaw === "ready remote") badgeClass = "ready";
+      else if(statusRaw === "Mati") badgeClass = "mati";
+
+      const badge = `<span class="badge ${badgeClass}">${statusRaw}</span>`;
 
       tr.innerHTML = `
         <td><strong>${hpc}</strong></td>
-        <td><span class="badge ${badgeClass}">${status}</span></td>
-        <td>${start || "-"}</td>
-        <td>${end || "-"}</td>
+        <td>${badge}</td>
+        <td>${start}</td>
+        <td>${end}</td>
         <td>${isNaN(sisa) ? "-" : sisa}</td>
       `;
 
-      if(status === "Dipinjam" && !isNaN(sisa)) {
+      // warna berdasarkan sisa hari (hanya jika Dipinjam)
+      if(statusRaw === "Dipinjam" && !isNaN(sisa)) {
         if(sisa < 0) tr.classList.add("overdue");
         else if(sisa <= 3) tr.classList.add("warning");
         else tr.classList.add("safe");
@@ -103,9 +103,31 @@ fetch("https://docs.google.com/spreadsheets/d/e/2PACX-1vSyP3lQOEf0soz2vU0XezrIZ9
 
       tbody.appendChild(tr);
     });
-  })
-  .catch(err => console.error("Fetch error:", err));
+  });
+
+
+// SORTING
+function sortTable(columnIndex) {
+  const table = document.getElementById("sheet-table");
+  const rows = Array.from(table.rows).slice(1);
+  const asc = table.getAttribute("data-sort") !== "asc";
+
+  rows.sort((a, b) => {
+    let x = a.cells[columnIndex].innerText;
+    let y = b.cells[columnIndex].innerText;
+
+    if(!isNaN(x) && !isNaN(y)) {
+      return asc ? x - y : y - x;
+    }
+
+    return asc ? x.localeCompare(y) : y.localeCompare(x);
+  });
+
+  rows.forEach(row => table.tBodies[0].appendChild(row));
+  table.setAttribute("data-sort", asc ? "asc" : "desc");
+}
 </script>
+
 
 
 
