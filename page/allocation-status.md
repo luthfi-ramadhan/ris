@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Status Peminjam
-permalink: /data/
+permalink: /allocation-status/
 ---
 
-<h2>Dashboard Peminjaman Alat</h2>
+<h2>HPC Resource Allocation Status</h2>
 
 <table id="sheet-table">
   <thead>

@@ -11,6 +11,30 @@ Research and Innovation Services (RIS) is a service unit of the High Performance
 
 {% capture text %}
 
+A real-time overview of High Performance Computing (HPC) resources and their current allocation status. It displays the availability of each node, including whether it is currently in use, available for remote access, or inactive. For nodes that are borrowed, the dashboard also shows the borrowing period and the remaining number of days.
+
+{%
+  include button.html
+  link="data"
+  text="See HPC Resource Allocation Status"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/photo.jpg"
+  link="data"
+  title="HPC Resource Allocation Status"
+  text=text
+%}
+
+
+{% capture text %}
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 {%
@@ -80,26 +104,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   text=text
 %}
 
-{% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="data"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="data"
-  title="Our Team"
-  text=text
-%}
 
