@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Status Peminjam
+title: HPC Resource Allocation Status
 permalink: /allocation-status/
 ---
 
