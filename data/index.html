@@ -437,32 +437,29 @@
 
 <script>
 fetch("https://docs.google.com/spreadsheets/d/e/2PACX-1vSyP3lQOEf0soz2vU0XezrIZ9JXM_y0Jm1yczzHLGWkzRjlQX8yXCnP8Dky1_qWipQaOUE945LrlVxU/pubhtml?gid=2090281700&single=true")
-  .then(response => response.text())
+  .then(res => res.text())
   .then(data => {
-    const rows = data.split("\n").map(row => row.split(","));
-    const tableHead = document.querySelector("#sheet-table thead");
-    const tableBody = document.querySelector("#sheet-table tbody");
+    const rows = data.split("\n").map(r => r.split(","));
+    const body = document.querySelector("#sheet-table tbody");
 
-    // Header
-    const headerRow = document.createElement("tr");
-    rows[0].forEach(cell => {
-      const th = document.createElement("th");
-      th.textContent = cell;
-      headerRow.appendChild(th);
-    });
-    tableHead.appendChild(headerRow);
-
-    // Data
     rows.slice(1).forEach(row => {
-      const tr = document.createElement("tr");
-      row.forEach(cell => {
-        const td = document.createElement("td");
-        td.textContent = cell;
-        tr.appendChild(td);
-      });
-      tableBody.appendChild(tr);
+      const status = row[0];
+      const sisa = parseInt(row[3]);
+
+      if(status === "Dipinjam" && sisa > 0){
+        const tr = document.createElement("tr");
+
+        row.forEach(cell => {
+          const td = document.createElement("td");
+          td.textContent = cell;
+          tr.appendChild(td);
+        });
+
+        body.appendChild(tr);
+      }
     });
   });
+
 </script>
   </section>
 
