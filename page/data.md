@@ -6,15 +6,16 @@ permalink: /data/
 <!-- <h2>Status Peminjaman</h2> -->
 
 
-<h2>Dashboard Peminjaman Alat</h2>
+<h2>Dashboard Status HPC</h2>
 
 <table id="sheet-table">
   <thead>
     <tr>
-      <th onclick="sortTable(0)">Status</th>
-      <th onclick="sortTable(1)">Start</th>
-      <th onclick="sortTable(2)">End</th>
-      <th onclick="sortTable(3)">Sisa Hari</th>
+      <th onclick="sortTable(0)">HPC</th>
+      <th onclick="sortTable(1)">Status</th>
+      <th onclick="sortTable(2)">Start</th>
+      <th onclick="sortTable(3)">End</th>
+      <th onclick="sortTable(4)">Sisa Hari</th>
     </tr>
   </thead>
   <tbody></tbody>
@@ -25,6 +26,7 @@ permalink: /data/
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
+  font-size: 14px;
 }
 
 #sheet-table th, #sheet-table td {
@@ -34,7 +36,7 @@ permalink: /data/
 }
 
 #sheet-table th {
-  background: #222;
+  background: #1e1e1e;
   color: white;
   cursor: pointer;
 }
@@ -44,16 +46,18 @@ permalink: /data/
   border-radius: 12px;
   color: white;
   font-weight: bold;
+  font-size: 12px;
 }
 
-.badge.dipinjam { background: #e67e22; }
-.badge.ready { background: #27ae60; }
-.badge.mati { background: #c0392b; }
+.dipinjam { background: #e67e22; }
+.ready { background: #27ae60; }
+.mati { background: #c0392b; }
 
 .overdue { background: #ffdddd; }
 .warning { background: #fff3cd; }
 .safe { background: #e8f5e9; }
 </style>
+
 
 
 <script>
@@ -66,33 +70,35 @@ fetch(csvUrl)
     const tbody = document.querySelector("#sheet-table tbody");
 
     rows.slice(1).forEach(row => {
-      const status = row[0].trim();
-      const start = row[1];
-      const end = row[2];
-      const sisa = parseInt(row[3]);
-
-      // hanya tampilkan yang sedang Dipinjam
-      if(status !== "Dipinjam") return;
+      const hpc = row[0]?.trim();
+      const statusRaw = row[1]?.trim();
+      const start = row[2] || "-";
+      const end = row[3] || "-";
+      const sisa = parseInt(row[4]);
 
       const tr = document.createElement("tr");
 
-      // badge status
-      const badge = `<span class="badge dipinjam">${status}</span>`;
+      // badge warna status
+      let badgeClass = "";
+      if(statusRaw === "Dipinjam") badgeClass = "dipinjam";
+      else if(statusRaw === "ready remote") badgeClass = "ready";
+      else if(statusRaw === "Mati") badgeClass = "mati";
+
+      const badge = `<span class="badge ${badgeClass}">${statusRaw}</span>`;
 
       tr.innerHTML = `
+        <td><strong>${hpc}</strong></td>
         <td>${badge}</td>
         <td>${start}</td>
         <td>${end}</td>
-        <td>${sisa}</td>
+        <td>${isNaN(sisa) ? "-" : sisa}</td>
       `;
 
-      // warna otomatis
-      if(sisa < 0) {
-        tr.classList.add("overdue");
-      } else if(sisa <= 3) {
-        tr.classList.add("warning");
-      } else {
-        tr.classList.add("safe");
+      // warna berdasarkan sisa hari (hanya jika Dipinjam)
+      if(statusRaw === "Dipinjam" && !isNaN(sisa)) {
+        if(sisa < 0) tr.classList.add("overdue");
+        else if(sisa <= 3) tr.classList.add("warning");
+        else tr.classList.add("safe");
       }
 
       tbody.appendChild(tr);
@@ -121,6 +127,7 @@ function sortTable(columnIndex) {
   table.setAttribute("data-sort", asc ? "asc" : "desc");
 }
 </script>
+
 
 
 
