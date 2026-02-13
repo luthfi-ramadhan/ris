@@ -15,7 +15,7 @@ A real-time overview of High Performance Computing (HPC) resources and their cur
 
 {%
   include button.html
-  link="data"
+  link="allocation-status"
   text="See HPC Resource Allocation Status"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -27,7 +27,7 @@ A real-time overview of High Performance Computing (HPC) resources and their cur
 {%
   include feature.html
   image="images/photo.jpg"
-  link="data"
+  link="allocation-status"
   title="HPC Resource Allocation Status"
   text=text
 %}
