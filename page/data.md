@@ -3,19 +3,16 @@ layout: default
 title: Status Peminjam
 permalink: /data/
 ---
-<!-- <h2>Status Peminjaman</h2> -->
 
-
-<h2>Dashboard Status HPC</h2>
+<h2>Dashboard Peminjaman Alat</h2>
 
 <table id="sheet-table">
   <thead>
     <tr>
-      <th onclick="sortTable(0)">HPC</th>
-      <th onclick="sortTable(1)">Status</th>
-      <th onclick="sortTable(2)">Start</th>
-      <th onclick="sortTable(3)">End</th>
-      <th onclick="sortTable(4)">Sisa Hari</th>
+      <th onclick="sortTable(0)">Status</th>
+      <th onclick="sortTable(1)">Start</th>
+      <th onclick="sortTable(2)">End</th>
+      <th onclick="sortTable(3)">Sisa Hari</th>
     </tr>
   </thead>
   <tbody></tbody>
@@ -26,7 +23,6 @@ permalink: /data/
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
-  font-size: 14px;
 }
 
 #sheet-table th, #sheet-table td {
@@ -36,7 +32,7 @@ permalink: /data/
 }
 
 #sheet-table th {
-  background: #1e1e1e;
+  background: #222;
   color: white;
   cursor: pointer;
 }
@@ -46,89 +42,79 @@ permalink: /data/
   border-radius: 12px;
   color: white;
   font-weight: bold;
-  font-size: 12px;
 }
 
-.dipinjam { background: #e67e22; }
-.ready { background: #27ae60; }
-.mati { background: #c0392b; }
+.badge.dipinjam { background: #e67e22; }
+.badge.ready { background: #27ae60; }
+.badge.mati { background: #c0392b; }
 
 .overdue { background: #ffdddd; }
 .warning { background: #fff3cd; }
 .safe { background: #e8f5e9; }
 </style>
 
-
-
 <script>
 const csvUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSyP3lQOEf0soz2vU0XezrIZ9JXM_y0Jm1yczzHLGWkzRjlQX8yXCnP8Dky1_qWipQaOUE945LrlVxU/pub?gid=2090281700&single=true&output=csv";
 
 fetch(csvUrl)
   .then(res => res.text())
-  .then(text => {
-
-    console.log("RAW DATA:", text); // DEBUG
-
-    const rows = text.trim().split("\r\n"); // penting: gunakan \r\n
+  .then(data => {
+    const rows = data.trim().split("\n").map(r => r.split(","));
     const tbody = document.querySelector("#sheet-table tbody");
 
     rows.slice(1).forEach(row => {
+      const status = row[0].trim();
+      const start = row[1];
+      const end = row[2];
+      const sisa = parseInt(row[3]);
 
-      // parser CSV yang aman
-      const cols = row.match(/(".*?"|[^",]+)(?=\s*,|\s*$)/g);
-      if(!cols || cols.length < 5) return;
-
-      const hpc = cols[0].replace(/"/g,'').trim();
-      const status = cols[1].replace(/"/g,'').trim();
-      const start = cols[2]?.replace(/"/g,'').trim() || "-";
-      const end = cols[3]?.replace(/"/g,'').trim() || "-";
-      const sisa = parseInt(cols[4]);
+      // hanya tampilkan yang sedang Dipinjam
+      if(status !== "Dipinjam") return;
 
       const tr = document.createElement("tr");
+
+      // badge status
+      const badge = `<span class="badge dipinjam">${status}</span>`;
 
       tr.innerHTML = `
-        <td><strong>${hpc}</strong></td>
-        <td>${status}</td>
+        <td>${badge}</td>
         <td>${start}</td>
         <td>${end}</td>
-        <td>${isNaN(sisa) ? "-" : sisa}</td>
+        <td>${sisa}</td>
       `;
 
+      // warna otomatis
+      if(sisa < 0) {
+        tr.classList.add("overdue");
+      } else if(sisa <= 3) {
+        tr.classList.add("warning");
+      } else {
+        tr.classList.add("safe");
+      }
+
       tbody.appendChild(tr);
     });
+  });
 
-  })
-  .catch(err => console.error("Fetch error:", err));
+
+// SORTING
+function sortTable(columnIndex) {
+  const table = document.getElementById("sheet-table");
+  const rows = Array.from(table.rows).slice(1);
+  const asc = table.getAttribute("data-sort") !== "asc";
+
+  rows.sort((a, b) => {
+    let x = a.cells[columnIndex].innerText;
+    let y = b.cells[columnIndex].innerText;
+
+    if(!isNaN(x) && !isNaN(y)) {
+      return asc ? x - y : y - x;
+    }
+
+    return asc ? x.localeCompare(y) : y.localeCompare(x);
+  });
+
+  rows.forEach(row => table.tBodies[0].appendChild(row));
+  table.setAttribute("data-sort", asc ? "asc" : "desc");
+}
 </script>
-
-
-
-
-
-<!-- <table border="1" id="sheet-table">
-  <tbody></tbody>
-</table>
-
-<script>
-fetch("https://docs.google.com/spreadsheets/d/e/2PACX-1vSyP3lQOEf0soz2vU0XezrIZ9JXM_y0Jm1yczzHLGWkzRjlQX8yXCnP8Dky1_qWipQaOUE945LrlVxU/pub?gid=2090281700&single=true&output=csv")
-  .then(response => response.text())
-  .then(data => {
-    const rows = data.trim().split("\n");
-    const tbody = document.querySelector("#sheet-table tbody");
-
-    rows.forEach(row => {
-      const cols = row.split(",");
-      const tr = document.createElement("tr");
-
-      cols.forEach(col => {
-        const td = document.createElement("td");
-        td.textContent = col.trim();
-        tr.appendChild(td);
-      });
-
-      tbody.appendChild(tr);
-    });
-  })
-  .catch(error => console.error("Error:", error));
-</script> -->
-
