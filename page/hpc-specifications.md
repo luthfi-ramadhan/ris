@@ -19,8 +19,7 @@ permalink: /hpc-specifications/
   <ul>
     <li><strong>Total Nodes:</strong> 15</li>
     <li><strong>Network:</strong> 10 Gbps Ethernet</li>
-    <li><strong>Operating System:</strong> Ubuntu Server 22.04 LTS</li>
-    <li><strong>Scheduler:</strong> SLURM Workload Manager</li>
+    <li><strong>Operating System:</strong>Windows 11 Pro 64bit, Ubuntu Desktop, and Ubuntu Server 22.04 LTS</li>
   </ul>
 
   <hr>
@@ -30,38 +29,177 @@ permalink: /hpc-specifications/
   <table border="1" cellpadding="8" cellspacing="0" width="100%">
     <thead>
       <tr>
-        <th>Node ID</th>
+        <th>HPC</th>
         <th>Processor</th>
         <th>Cores</th>
         <th>RAM</th>
         <th>Storage</th>
         <th>GPU</th>
+        <th>Operating Systems</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>L1</td>
-        <td>Intel Xeon Gold 6230</td>
-        <td>20 Cores</td>
-        <td>128 GB</td>
-        <td>1 TB SSD</td>
-        <td>-</td>
+        <td>Intel i7 12th 2.1 GHz</td>
+        <td>12 Cores</td>
+        <td>32 GB</td>
+        <td>HDD 2 TB & SSD 512 GB</td>
+        <td>NVIDIA GeForce GTX 1650</td>
+        <td>Ubuntu Server 22.04 LTS</td>
+      </tr>
+      <tr>
+        <td>L2</td>
+        <td>Intel i7 12th 2.1 GHz</td>
+        <td>12 Cores</td>
+        <td>32 GB</td>
+        <td>HDD 2 TB & SSD 512 GB</td>
+        <td>NVIDIA GeForce GTX 1650</td>
+        <td>Ubuntu Server 22.04 LTS</td>
+      </tr>
+      <tr>
+        <td>L3</td>
+        <td>Intel i7 12th 2.1 GHz</td>
+        <td>12 Cores</td>
+        <td>32 GB</td>
+        <td>HDD 2 TB & SSD 512 GB</td>
+        <td>NVIDIA GeForce GTX 1650</td>
+        <td>Windows 11 Pro 64bit</td>
+      </tr>
+      <tr>
+        <td>L4</td>
+        <td>Intel i7 12th 2.1 GHz</td>
+        <td>12 Cores</td>
+        <td>32 GB</td>
+        <td>HDD 2 TB & SSD 512 GB</td>
+        <td>NVIDIA GeForce GTX 1650</td>
+        <td>Windows 11 Pro 64bit</td>
+      </tr>
+      <tr>
+        <td>L5</td>
+        <td>Intel i7 12th 2.1 GHz</td>
+        <td>12 Cores</td>
+        <td>32 GB</td>
+        <td>HDD 2 TB & SSD 512 GB</td>
+        <td>NVIDIA GeForce GTX 1650</td>
+        <td>Windows 11 Pro 64bit</td>
       </tr>
       <tr>
         <td>M1</td>
-        <td>AMD EPYC 7543</td>
-        <td>32 Cores</td>
-        <td>256 GB</td>
-        <td>2 TB NVMe</td>
-        <td>NVIDIA RTX 3090 (24GB)</td>
+        <td>Intel i9 12th 3.2 GHz</td>
+        <td>16 Cores</td>
+        <td>32 GB</td>
+        <td>HDD 4 TB & SSD 1 TB</td>
+        <td>NVIDIA GeForce RTX 4070</td>
+        <td>Windows 11 Pro 64bit</td>
+      </tr>
+      <tr>
+        <td>M2</td>
+        <td>Intel i9 12th 3.2 GHz</td>
+        <td>16 Cores</td>
+        <td>32 GB</td>
+        <td>HDD 4 TB & SSD 1 TB</td>
+        <td>NVIDIA GeForce RTX 4070</td>
+        <td>Windows 11 Pro 64bit</td>
+      </tr>
+      <tr>
+        <td>M3</td>
+        <td>Intel i9 12th 3.2 GHz</td>
+        <td>16 Cores</td>
+        <td>32 GB</td>
+        <td>HDD 4 TB & SSD 1 TB</td>
+        <td>NVIDIA GeForce RTX 4070</td>
+        <td>Windows 11 Pro 64bit</td>
+      </tr>
+      <tr>
+        <td>M4</td>
+        <td>Intel i9 12th 3.2 GHz</td>
+        <td>16 Cores</td>
+        <td>32 GB</td>
+        <td>HDD 4 TB & SSD 1 TB</td>
+        <td>NVIDIA GeForce RTX 4070</td>
+        <td>Windows 11 Pro 64bit</td>
+      </tr>
+      <tr>
+        <td>M5</td>
+        <td>Intel i9 12th 3.2 GHz</td>
+        <td>16 Cores</td>
+        <td>32 GB</td>
+        <td>HDD 4 TB & SSD 1 TB</td>
+        <td>NVIDIA GeForce RTX 4070</td>
+        <td>Windows 11 Pro 64bit</td>
+      </tr>
+      <tr>
+        <td>M6</td>
+        <td>Intel i9 12th 3.2 GHz</td>
+        <td>16 Cores</td>
+        <td>32 GB</td>
+        <td>HDD 4 TB & SSD 1 TB</td>
+        <td>NVIDIA GeForce RTX 4070</td>
+        <td>Ubuntu Desktop</td>
+      </tr>
+      <tr>
+        <td>M7</td>
+        <td>Intel i9 12th 3.2 GHz</td>
+        <td>16 Cores</td>
+        <td>32 GB</td>
+        <td>HDD 4 TB & SSD 1 TB</td>
+        <td>NVIDIA GeForce RTX 4070</td>
+        <td>Windows 11 Pro 64bit</td>
+      </tr>
+      <tr>
+        <td>M8</td>
+        <td>Intel i9 12th 3.2 GHz</td>
+        <td>16 Cores</td>
+        <td>32 GB</td>
+        <td>HDD 4 TB & SSD 1 TB</td>
+        <td>NVIDIA GeForce RTX 4070</td>
+        <td>Windows 11 Pro 64bit</td>
+      </tr>
+      <tr>
+        <td>M9</td>
+        <td>Intel i9 12th 3.2 GHz</td>
+        <td>16 Cores</td>
+        <td>32 GB</td>
+        <td>HDD 4 TB & SSD 1 TB</td>
+        <td>NVIDIA GeForce RTX 4070</td>
+        <td>Windows 11 Pro 64bit</td>
+      </tr>
+      <tr>
+        <td>M10</td>
+        <td>Intel i9 12th 3.2 GHz</td>
+        <td>16 Cores</td>
+        <td>32 GB</td>
+        <td>HDD 4 TB & SSD 1 TB</td>
+        <td>NVIDIA GeForce RTX 4070</td>
+        <td>Windows 11 Pro 64bit</td>
+      </tr>
+      <tr>
+        <td>H1</td>
+        <td>Intel i9 3.5 GHz</td>
+        <td>10 Cores</td>
+        <td>32 GB</td>
+        <td>HDD 2 TB & SSD 512 GB</td>
+        <td>2 x NVIDIA GeForce RTX 2080</td>
+        <td>Windows 11 Home 64-bit</td>
       </tr>
       <tr>
         <td>H2</td>
-        <td>Intel Xeon Silver 4214</td>
-        <td>12 Cores</td>
-        <td>64 GB</td>
-        <td>1 TB SSD</td>
-        <td>NVIDIA Tesla V100 (16GB)</td>
+        <td>Xeon Silver 4309Y 2.8 GHz</td>
+        <td>16 Cores</td>
+        <td>32 GB</td>
+        <td>HDD 512 GB</td>
+        <td>2 x NVIDIA RTX A4000</td>
+        <td>Windows 11 Pro 64bit</td>
+      </tr>
+      <tr>
+        <td>H3</td>
+        <td>Xeon Silver 4309Y 2.8 GHz</td>
+        <td>16 Cores</td>
+        <td>32 GB</td>
+        <td>HDD 512 GB</td>
+        <td>2 x NVIDIA RTX A4000</td>
+        <td>Windows 11 Pro 64bit</td>
       </tr>
     </tbody>
   </table>
