@@ -58,11 +58,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+The technical specifications of the High Performance Computing (HPC) infrastructure available in the laboratory. It includes detailed information on compute nodes, processors, memory capacity, storage configuration, GPU resources, and software environment.
 
 {%
   include button.html
-  link="projects"
+  link="hpc-specifications"
   text="Browse our projects"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -73,9 +73,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
+  image="images/spec.jpg"
+  link="hpc-specifications"
+  title="HPC's Specifications"
   flip=true
   style="bare"
   text=text
