@@ -63,7 +63,7 @@ The technical specifications of the High Performance Computing (HPC) infrastruct
 {%
   include button.html
   link="hpc-specifications"
-  text="Browse our projects"
+  text="See HPC's Specifications"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
