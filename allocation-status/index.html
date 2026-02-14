@@ -464,61 +464,40 @@ const csvUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSyP3lQOEf0soz2v
 
 fetch(csvUrl)
   .then(res => res.text())
-  .then(text => {
-
-    const rows = text.trim().split("\r\n");
+  .then(data => {
+    const rows = data.trim().split("\n").map(r => r.split(","));
     const tbody = document.querySelector("#sheet-table tbody");
 
     rows.slice(1).forEach(row => {
+      const hpc = row[0].trim();
+      const status = row[1].trim();
+      const start = row[2];
+      const end = row[3];
+      const sisa = parseInt(row[4]);
 
-      const cols = row.split(",");
-      // if(cols.length < 5) return;
-
-      const hpc = cols[0].trim();
-      const statusRaw = cols[1].trim();
-      const start = cols\[2]?.trim\() \|| \"-\";
-      const end = cols\[3]?.trim\() \|| \"-\";
-      const sisa = parseInt(cols[4]);
+      // hanya tampilkan yang sedang Dipinjam
+    //   if(status !== "Dipinjam") return;
 
       const tr = document.createElement("tr");
 
-      // ===== STATUS BADGE =====
-      let badgeClass = "";
-      let statusText = statusRaw;
-
-      const statusLower = statusRaw.toLowerCase();
-
-      if(statusLower === "available") {
-        badgeClass = "available";
-      } 
-      else if(statusLower === "busy") {
-        badgeClass = "busy";
-      } 
-      else if(statusLower === "inactive") {
-        badgeClass = "inactive";
-      }
-
-      const badge = `<span class="badge ${badgeClass}">${statusText}</span>`;
+      // badge status
+      const badge = `<span class="badge dipinjam">${status}</span>`;
 
       tr.innerHTML = `
         <td>${hpc}</td>
         <td>${badge}</td>
         <td>${start}</td>
         <td>${end}</td>
-        <td>${isNaN(sisa) ? "-" : sisa}</td>
+        <td>${sisa}</td>
       `;
 
-      // ===== ROW COLOR (HANYA JIKA BUSY) =====
-      if(statusLower === "busy" && !isNaN(sisa)) {
-        if(sisa < 0) {
-          tr.classList.add("overdue");
-        } 
-        else if(sisa <= 3) {
-          tr.classList.add("warning");
-        } 
-        else {
-          tr.classList.add("safe");
-        }
+      // warna otomatis
+      if(sisa < 0) {
+        tr.classList.add("overdue");
+      } else if(sisa <= 3) {
+        tr.classList.add("warning");
+      } else {
+        tr.classList.add("safe");
       }
 
       tbody.appendChild(tr);
