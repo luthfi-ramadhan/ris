@@ -104,7 +104,7 @@ fetch(csvUrl)
         <td>${badge}</td>
         <td>${start}</td>
         <td>${end}</td>
-        <td>${isNaN(sisa) ? "-" : sisa}</td>
+        <td>${sisa}</td>
       `;
 
       // ===== ROW COLOR (HANYA JIKA BUSY) =====
