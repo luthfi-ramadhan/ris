@@ -71,7 +71,7 @@ fetch(csvUrl)
     rows.slice(1).forEach(row => {
 
       const cols = row.split(",");
-      if(cols.length < 5) return;
+      // if(cols.length < 5) return;
 
       const hpc = cols[0].trim();
       const statusRaw = cols[1].trim();
@@ -104,7 +104,7 @@ fetch(csvUrl)
         <td>${badge}</td>
         <td>${start}</td>
         <td>${end}</td>
-        <td>${sisa}</td>
+        <td>${isNaN(sisa) ? "-" : sisa}</td>
       `;
 
       // ===== ROW COLOR (HANYA JIKA BUSY) =====
