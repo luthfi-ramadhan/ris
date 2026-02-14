@@ -15,14 +15,14 @@ permalink: /hpc-specifications/
 
   <hr>
 
-  <h2>Cluster Overview</h2>
+  <!-- <h2>Cluster Overview</h2>
   <ul>
     <li><strong>Total Nodes:</strong> 15</li>
     <li><strong>Network:</strong> 10 Gbps Ethernet</li>
     <li><strong>Operating System:</strong>Windows 11 Pro 64bit, Ubuntu Desktop, and Ubuntu Server 22.04 LTS</li>
   </ul>
 
-  <hr>
+  <hr> -->
 
   <h2>Node Specifications</h2>
 
@@ -206,13 +206,13 @@ permalink: /hpc-specifications/
 
   <hr>
 
-  <h2>Software Environment</h2>
+  <!-- <h2>Software Environment</h2>
   <ul>
     <li>CUDA Toolkit 12.x</li>
     <li>Python 3.10</li>
     <li>MATLAB R2024a</li>
     <li>Docker & Singularity Support</li>
-  </ul>
+  </ul> -->
 
 </div>
 
