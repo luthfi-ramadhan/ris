@@ -45,9 +45,13 @@ permalink: /allocation-status/
   font-weight: bold;
 }
 
-.badge.dipinjam { background: #e67e22; }
+/* .badge.dipinjam { background: #e67e22; }
 .badge.ready { background: #27ae60; }
-.badge.mati { background: #c0392b; }
+.badge.mati { background: #c0392b; } */
+.badge.available { background: #27ae60; }   /* Hijau */
+.badge.busy { background: #e74c3c; }        /* Merah */
+.badge.inactive { background: #2c3e50; }    /* Abu gelap */
+
 
 .overdue { background: #ffdddd; }
 .warning { background: #fff3cd; }
