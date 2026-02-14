@@ -112,13 +112,18 @@ fetch(csvUrl)
       //   tr.classList.add("safe");
       // }
       if(status.toLowerCase() === "busy") {
-        if(sisa < 0) {
-          tr.classList.add("overdue");
-        } else if(sisa <= 3) {
-          tr.classList.add("warning");
-        } else {
-          tr.classList.add("safe");
-        }
+        tr.classList.add("overdue");
+        // if(sisa < 0) {
+        //   tr.classList.add("overdue");
+        // } else if(sisa <= 3) {
+        //   tr.classList.add("warning");
+        // } else {
+        //   tr.classList.add("safe");
+        // }
+      } else if(status.toLowerCase() === "available"){
+        tr.classList.add("safe");
+      } else {
+        tr.classList.add("warning");
       }
 
 
