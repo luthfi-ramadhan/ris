@@ -13,7 +13,7 @@ permalink: /allocation-status/
       <th onclick="sortTable(1)">Status</th>
       <th onclick="sortTable(2)">Start</th>
       <th onclick="sortTable(3)">End</th>
-      <th onclick="sortTable(4)">Remaining Day</th>
+      <th onclick="sortTable(4)">Sisa Hari</th>
     </tr>
   </thead>
   <tbody></tbody>
@@ -39,24 +39,20 @@ permalink: /allocation-status/
 }
 
 .badge {
-  padding: 6px 12px;
-  border-radius: 14px;
+  padding: 5px 10px;
+  border-radius: 12px;
   color: white;
-  font-weight: 600;
-  font-size: 12px;
+  font-weight: bold;
 }
 
-/* STATUS COLORS */
-.badge.available { background-color: #27ae60; }
-.badge.busy { background-color: #e74c3c; }
-.badge.inactive { background-color: #2c3e50; }
+.badge.dipinjam { background: #e67e22; }
+.badge.ready { background: #27ae60; }
+.badge.mati { background: #c0392b; }
 
-/* ROW COLORS (hanya untuk busy) */
 .overdue { background: #ffdddd; }
 .warning { background: #fff3cd; }
 .safe { background: #e8f5e9; }
 </style>
-
 
 <script>
 const csvUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSyP3lQOEf0soz2vU0XezrIZ9JXM_y0Jm1yczzHLGWkzRjlQX8yXCnP8Dky1_qWipQaOUE945LrlVxU/pub?gid=2090281700&single=true&output=csv";
