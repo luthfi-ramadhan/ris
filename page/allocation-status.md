@@ -54,7 +54,7 @@ permalink: /allocation-status/
 
 
 .overdue { background: #ffdddd; }
-.warning { background: #353535; }
+.warning { background: #ffffff; }
 .safe { background: #e8f5e9; }
 </style>
 
