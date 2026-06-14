@@ -7,10 +7,4 @@ links:
   orcid: 0000-0001-8571-8924
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Faucibus purus in massa tempor nec feugiat nisl pretium fusce.
-Elit at imperdiet dui accumsan.
-Duis tristique sollicitudin nibh sit amet commodo nulla facilisi.
-Vitae elementum curabitur vitae nunc sed velit dignissim sodales.
-Lacinia at quis risus sed vulputate odio ut.
-Magna eget est lorem ipsum.
+Mgs. M. Luthfi Ramadhan is a lecturer in the Faculty of Computer Science at the University of Sriwijaya. He received his master degree from the Faculty of Computer Science at the University of Indonesia. He received his bachelor degree from the Faculty of Computer Science at the University of Sriwijaya. His research interests are in Deep learning, Pattern recognition, and Computer vision.
