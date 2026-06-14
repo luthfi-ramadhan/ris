@@ -181,7 +181,6 @@
   date: '2024-04-12'
   link: https://doi.org/g8t4kn
   orcid: 0000-0001-8571-8924
-  image: https://ieeexplore.ieee.org/ielx8/6287639/10380310/10776969/graphical_abstract/access-gagraphic-3510774.jpg
   plugin: orcid.py
   file: orcid.yaml
 - title: Encoder-Decoder with Atrous Spatial Pyramid Pooling for Left Ventricle Segmentation
