@@ -1,6 +1,6 @@
 ---
 name: Mgs. M. Luthfi Ramadhan, M.Kom.
-image: images/photo.jpg
+image: images/mlr.jpg
 role: Member
 affiliation: Department of Informatics Engineering, Sriwijaya University, Palembang, Indonesia.
 links:
