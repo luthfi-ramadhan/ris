@@ -157,12 +157,11 @@
 - id: doi:10.1109/access.2024.3361287
   title: Building Damage Assessment Using Feature Concatenated Siamese Neural Network
   authors:
-  - Mgs. M. Luthfi Ramadhan
+  - Mgs M. Luthfi Ramadhan
   - Grafika Jati
   - Wisnu Jatmiko
   publisher: IEEE Access
-  image: https://ieeexplore.ieee.org/ielx7/6287639/10380310/10418211/graphical_abstract/access-gagraphic-3361287.jpg
-  date: '2024-02-01'
+  date: '2024-01-01'
   link: https://doi.org/gtgw74
   orcid: 0000-0001-8571-8924
   plugin: orcid.py
@@ -171,14 +170,14 @@
   title: Time-Distributed Vision Transformer Stacked With Transformer for Heart Failure
     Detection Based on Echocardiography Video
   authors:
-  - Mgs. M. Luthfi Ramadhan
+  - Mgs M. Luthfi Ramadhan
   - Adyatma W. A. Nugraha Yudha
   - Muhammad Febrian Rachmadi
   - Kevin Moses Hanky Jr Tandayu
   - Lies Dina Liastuti
   - Wisnu Jatmiko
   publisher: IEEE Access
-  date: '2024-04-12'
+  date: '2024-01-01'
   link: https://doi.org/g8t4kn
   orcid: 0000-0001-8571-8924
   plugin: orcid.py
