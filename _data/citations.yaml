@@ -739,7 +739,7 @@
   publisher: IAES International Journal of Artificial Intelligence (IJ-AI)
   date: '2024-06-01'
   link: https://doi.org/hb7pcr
-  orcid: 0000-0002-7243-0451
+  orcid: 0000-0002-0229-5717
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.2139/ssrn.4847038
@@ -1150,7 +1150,7 @@
   publisher: IEEE Access
   date: '2020-01-01'
   link: https://doi.org/g6rdwm
-  orcid: 0000-0002-7243-0451
+  orcid: 0000-0002-0229-5717
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1088/1742-6596/1500/1/012105
@@ -1555,6 +1555,453 @@
   date: '2011-01-01'
   link: ''
   orcid: 0009-0002-7768-0238
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.11591/ijai.v15.i2.pp1593-1604
+  title: Fetal organ detection using feature enhancement with attention  and residual
+    block
+  authors:
+  - Nuswil Bernolian
+  - Siti Nurmaini
+  - Ade Iriani Sapitri
+  - Annisa Darmawahyuni
+  - Muhammad Naufal Rachmatullah
+  - Bambang Tutuko
+  - Firdaus Firdaus
+  publisher: IAES International Journal of Artificial Intelligence (IJ-AI)
+  date: '2026-04-01'
+  link: https://doi.org/hb7pfh
+  orcid: 0000-0002-0229-5717
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.11591/eei.v15i1.10531
+  title: Delineating 12-lead ECG for automated ST-elevation and ST depression detection
+    using deep learning
+  authors:
+  - Bambang Tutuko
+  - Annisa Darmawahyuni
+  - Alexander Edo Tondas
+  - Muhammad Naufal Rachmatullah
+  - Firdaus Firdaus
+  - Ade Iriani Sapitri
+  - Anggun Islami
+  - Sukemi Sukemi
+  - Muhammad Fachrurrozi
+  - Siti Nurmaini
+  - Rendy Isdwanta
+  - Jordan Marcelino
+  publisher: Bulletin of Electrical Engineering and Informatics
+  date: '2026-02-01'
+  link: https://doi.org/hb7pfj
+  orcid: 0000-0002-0229-5717
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.11591/eei.v14i5.9670
+  title: Text clustering for analyzing scientific article using pre-trained language
+    model and k-means algorithm
+  authors:
+  - Firdaus Firdaus
+  - Siti Nurmaini
+  - Novi Yusliani
+  - Muhammad Naufal Rachmatullah
+  - Annisa Darmawahyuni
+  - Yesi Novaria Kunang
+  - Muhammad Fachrurrozi
+  - Risky Armansyah
+  publisher: Bulletin of Electrical Engineering and Informatics
+  date: '2025-10-01'
+  link: https://doi.org/hb7pfk
+  orcid: 0000-0002-0229-5717
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.11591/ijece.v15i4.pp3779-3794
+  title: Enhancing ultrasound image quality using deep structure of residual network
+  authors:
+  - Ade Iriani Sapitri
+  - Siti Nurmaini
+  - Muhammad Naufal Rachmatullah
+  - Annisa Darmawahyuni
+  - Firdaus Firdaus
+  - Anggun Islami
+  - Bambang Tutuko
+  - Akhiar Wista Arum
+  publisher: International Journal of Electrical and Computer Engineering (IJECE)
+  date: '2025-08-01'
+  link: https://doi.org/hb7pfm
+  orcid: 0000-0002-0229-5717
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.11591/eei.v14i4.9244
+  title: 'Residual pixel-wise semantic segmentation for assessing enlarged fetal heart:
+    a preliminary study'
+  authors:
+  - Muhammad Taufik Roseno
+  - Siti Nurmaini
+  - Dian Palupi Rini
+  - Tommy Saputra
+  - Putri Mirani
+  - Muhammad Naufal Rachmatullah
+  - Annisa Darmawahyuni
+  - Ade Iriani Sapitri
+  - Hadi Syaputra
+  publisher: Bulletin of Electrical Engineering and Informatics
+  date: '2025-08-01'
+  link: https://doi.org/hb7pfn
+  orcid: 0000-0002-0229-5717
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.11591/ijaas.v14.i2.pp352-360
+  title: A deep learning-based myocardial infarction classification based on single-lead
+    electrocardiogram signal
+  authors:
+  - Annisa Darmawahyuni
+  - Winda Kurnia Sari
+  - Nurul Afifah
+  - Bambang Tutuko
+  - Siti Nurmaini
+  - Jordan Marcelino
+  - Rendy Isdwanta
+  - Cholidah Zuhroh Khairunnisa
+  publisher: International Journal of Advances in Applied Sciences
+  date: '2025-06-01'
+  link: https://doi.org/hb7pfp
+  orcid: 0000-0002-0229-5717
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/a18040236
+  title: 'iCOR: End-to-End Electrocardiography Morphology Classification Combining
+    Multi-Layer Filter and BiLSTM'
+  authors:
+  - Siti Nurmaini
+  - Wisnu Jatmiko
+  - Satria Mandala
+  - Bambang Tutuko
+  - Erwin Erwin
+  - Alexander Edo Tondas
+  - Annisa Darmawahyuni
+  - Firdaus Firdaus
+  - Muhammad Naufal Rachmatullah
+  - Ade Iriani Sapitri
+  - Anggun Islami
+  - Akhiar Wista Arum
+  - Muhammad Ikhwan Perwira
+  publisher: Algorithms
+  date: '2025-04-18'
+  link: https://doi.org/hb7pfq
+  orcid: 0000-0002-0229-5717
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/ACCESS.2025.3639572
+  title: Robust SegFormer-Based Cervical Neoplastic Lesion Segmentation Using Lesion-Specific
+    Augmentation and Anatomical Label Optimization
+  authors:
+  - Errissya Rasywir
+  - Siti Nurmaini
+  - Muhammad Fachrurrozi
+  - Setiawan Assegaff
+  - Patiyus Agustiansyah
+  - Yovi Pratama
+  - Annisa Darmawahyuni
+  publisher: IEEE Access
+  date: '2025-01-01'
+  link: https://doi.org/hb7pfr
+  orcid: 0000-0002-0229-5717
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.11591/ijai.v13.i3.pp3404-3413
+  title: Multi-scale input reconstruction network and one-stage instance segmentation
+    for enhancing heart defect prediction rate
+  authors:
+  - Sutarno Sutarno
+  - Siti Nurmaini
+  - Ade Iriani Sapitri
+  - Muhammad Naufal Rachmatullah
+  - Bambang Tutuko
+  - Annisa Darmawahyuni
+  - Firdaus Firdaus
+  - Anggun Islami
+  - Samsuryadi Samsuryadi
+  publisher: IAES International Journal of Artificial Intelligence (IJ-AI)
+  date: '2024-09-01'
+  link: https://doi.org/hb7pfs
+  orcid: 0000-0002-0229-5717
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/ACCESS.2024.3390008
+  title: Health-Related Data Analysis Using Metaheuristic Optimization and Machine
+    Learning
+  authors:
+  - Annisa Darmawahyuni
+  - Siti Nurmaini
+  - Bambang Tutuko
+  - Muhammad Naufal Rachmatullah
+  - Firdaus Firdaus
+  - Ade Iriani Sapitri
+  - Anggun Islami
+  - Jordan Marcelino
+  - Rendy Isdwanta
+  - Muhammad Irfan Karim
+  publisher: IEEE Access
+  date: '2024-01-01'
+  link: https://doi.org/hb7pft
+  orcid: 0000-0002-0229-5717
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1371/journal.pone.0277932
+  title: 'DAE-ConvBiLSTM: End-to-end learning single-lead electrocardiogram signal
+    for heart abnormalities detection'
+  authors:
+  - Bambang Tutuko
+  - Annisa Darmawahyuni
+  - Siti Nurmaini
+  - Alexander Edo Tondas
+  - Muhammad Naufal Rachmatullah
+  - Samuel Benedict Putra Teguh
+  - Firdaus Firdaus
+  - Ade Iriani Sapitri
+  - Rossi Passarella
+  publisher: PLOS ONE
+  date: '2022-12-30'
+  link: https://doi.org/hb7pdg
+  orcid: 0000-0002-0229-5717
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/jcm11216454
+  title: Deep Learning for Improving the Effectiveness of Routine Prenatal Screening
+    for Major Congenital Heart Diseases
+  authors:
+  - Siti Nurmaini
+  - Radiyati Umi Partan
+  - Nuswil Bernolian
+  - Ade Iriani Sapitri
+  - Bambang Tutuko
+  - Muhammad Naufal Rachmatullah
+  - Annisa Darmawahyuni
+  - Firdaus Firdaus
+  - Johanes C. Mose
+  publisher: Journal of Clinical Medicine
+  date: '2022-10-31'
+  link: https://doi.org/hb7pfv
+  orcid: 0000-0002-0229-5717
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/s22155489
+  title: Automated Precancerous Lesion Screening Using an Instance Segmentation Technique
+    for Improving Accuracy
+  authors:
+  - Patiyus Agustiansyah
+  - Siti Nurmaini
+  - Laila Nuranna
+  - Irfannuddin Irfannuddin
+  - Rizal Sanif
+  - Legiran Legiran
+  - Muhammad Naufal Rachmatullah
+  - Gavira Olipa Florina
+  - Ade Iriani Sapitri
+  - Annisa Darmawahyuni
+  publisher: Sensors
+  date: '2022-07-22'
+  link: https://doi.org/hb7pfw
+  orcid: 0000-0002-0229-5717
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/s22062329
+  title: 'Short Single-Lead ECG Signal Delineation-Based Deep Learning: Implementation
+    in Automatic Atrial Fibrillation Identification'
+  authors:
+  - Bambang Tutuko
+  - Muhammad Naufal Rachmatullah
+  - Annisa Darmawahyuni
+  - Siti Nurmaini
+  - Alexander Edo Tondas
+  - Rossi Passarella
+  - Radiyati Umi Partan
+  - Ahmad Rifai
+  - Ade Iriani Sapitri
+  - Firdaus Firdaus
+  publisher: Sensors
+  date: '2022-03-17'
+  link: https://doi.org/gspxc9
+  orcid: 0000-0002-0229-5717
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/s21238007
+  title: 'Deep Learning-Based Computer-Aided Fetal Echocardiography: Application to
+    Heart Standard View Segmentation for Congenital Heart Defects Detection'
+  authors:
+  - Siti Nurmaini
+  - Muhammad Naufal Rachmatullah
+  - Ade Iriani Sapitri
+  - Annisa Darmawahyuni
+  - Bambang Tutuko
+  - Firdaus Firdaus
+  - Radiyati Umi Partan
+  - Nuswil Bernolian
+  publisher: Sensors
+  date: '2021-11-30'
+  link: https://doi.org/hb7pfx
+  orcid: 0000-0002-0229-5717
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/ACCESS.2021.3092631
+  title: Beat-to-Beat Electrocardiogram Waveform Classification Based on a Stacked
+    Convolutional and Bidirectional Long Short-Term Memory
+  authors:
+  - Siti Nurmaini
+  - Annisa Darmawahyuni
+  - Muhammad Naufal Rachmatullah
+  - Jannes Effendi
+  - Ade Iriani Sapitri
+  - Firdaus Firdaus
+  - Bambang Tutuko
+  publisher: IEEE Access
+  date: '2021-01-01'
+  link: https://doi.org/gqjhpj
+  orcid: 0000-0002-0229-5717
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.imu.2020.100507
+  title: Electrocardiogram signal classification for automated delineation using bidirectional
+    long short-term memory
+  authors:
+  - Siti Nurmaini
+  - Alexander Edo Tondas
+  - Annisa Darmawahyuni
+  - Muhammad Naufal Rachmatullah
+  - Jannes Effendi
+  - Firdaus Firdaus
+  - Bambang Tutuko
+  publisher: Informatics in Medicine Unlocked
+  date: '2021-01-01'
+  link: https://doi.org/gqcqt4
+  orcid: 0000-0002-0229-5717
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.future.2020.07.021
+  title: Robust detection of atrial fibrillation from short-term electrocardiogram
+    using convolutional neural networks
+  authors:
+  - Siti Nurmaini
+  - "Alexander\_Edo Tondas"
+  - Annisa Darmawahyuni
+  - Muhammad Naufal Rachmatullah
+  - Radiyati Umi Partan
+  - Firdaus Firdaus
+  - Bambang Tutuko
+  - Ferlita Pratiwi
+  - Andre Herviant Juliano
+  - Rahmi Khoirani
+  publisher: Future Generation Computer Systems
+  date: '2020-12-01'
+  link: https://doi.org/hb7pfz
+  orcid: 0000-0002-0229-5717
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1088/1742-6596/1500/1/012134
+  title: 'Analysis of Classifier Performance on ECG Interpretation for Precision Medicine:
+    Which performance metrics should we use?'
+  authors:
+  - A Darmawahyuni
+  - S Nurmaini
+  - M Naufal Rachmatullah
+  publisher: 'Journal of Physics: Conference Series'
+  date: '2020-04-01'
+  link: https://doi.org/hb7pf2
+  orcid: 0000-0002-0229-5717
+  plugin: orcid.py
+  file: orcid.yaml
+- title: A Deep Learning Approach to Integrate Medical Big Data for Improving Health
+    Services in Indonesia
+  publisher: Computer Engineering and Applications Journal (ComEngApp)
+  date: '2020-02-08'
+  link: https://comengapp.unsri.ac.id/index.php/comengapp/article/view/328
+  orcid: 0000-0002-0229-5717
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/electronics9010135
+  title: Deep Learning-Based Stacked Denoising and Autoencoder for ECG Heartbeat Classification
+  authors:
+  - Siti Nurmaini
+  - Annisa Darmawahyuni
+  - Akhmad Noviar Sakti Mukti
+  - Muhammad Naufal Rachmatullah
+  - Firdaus Firdaus
+  - Bambang Tutuko
+  publisher: Electronics
+  date: '2020-01-10'
+  link: https://doi.org/gg3fkd
+  orcid: 0000-0002-0229-5717
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.imu.2020.100441
+  title: Congestive heart failure waveform classification based on short time-step
+    analysis with recurrent network
+  authors:
+  - Annisa Darmawahyuni
+  - Siti Nurmaini
+  - Meiryka Yuwandini
+  - ' Muhammad Naufal Rachmatullah'
+  - Firdaus Firdaus
+  - Bambang Tutuko
+  publisher: Informatics in Medicine Unlocked
+  date: '2020-01-01'
+  link: https://doi.org/hb7pf3
+  orcid: 0000-0002-0229-5717
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/ica.2019.8916683
+  title: Deep Learning with Long Short-Term Memory for Enhancement Myocardial Infarction
+    Classification
+  authors:
+  - Annisa Darmawahyuni
+  - Siti Nurmaini
+  - ' Sukemi'
+  publisher: 2019 6th International Conference on Instrumentation, Control, and Automation
+    (ICA)
+  date: '2019-07-01'
+  link: https://doi.org/hb7pf4
+  orcid: 0000-0002-0229-5717
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/app9142921
+  title: An Automated ECG Beat Classification System Using Deep Neural Networks with
+    an Unsupervised Feature Extraction Technique
+  authors:
+  - Siti Nurmaini
+  - Radiyati Umi Partan
+  - Wahyu Caesarendra
+  - Tresna Dewi
+  - Muhammad Naufal Rahmatullah
+  - Annisa Darmawahyuni
+  - Vicko Bhayyu
+  - Firdaus Firdaus
+  publisher: Applied Sciences
+  date: '2019-07-22'
+  link: https://doi.org/hb7pf5
+  orcid: 0000-0002-0229-5717
+  plugin: orcid.py
+  file: orcid.yaml
+- title: Coronary Heart Disease Interpretation Based on Deep Neural Network
+  publisher: Computer Engineering and Applications Journal
+  date: '2019-07-19'
+  orcid: 0000-0002-0229-5717
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/a12060118
+  title: Deep Learning with a Recurrent Network Structure in the Sequence Modeling
+    of Imbalanced Data for ECG-Rhythm Classifier
+  authors:
+  - Annisa Darmawahyuni
+  - Siti Nurmaini
+  - ' Sukemi'
+  - Wahyu Caesarendra
+  - Vicko Bhayyu
+  - M Naufal Rachmatullah
+  - ' Firdaus'
+  publisher: Algorithms
+  date: '2019-06-07'
+  link: https://doi.org/hb7pf6
+  orcid: 0000-0002-0229-5717
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1371/journal.pcbi.1007128
