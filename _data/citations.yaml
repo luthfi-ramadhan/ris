@@ -1,209 +1,1560 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1016/j.patter.2026.101514
-  title: Scalable data harmonization for single-cell image-based profiling with CytoTable
+- id: doi:10.1080/24751839.2026.2684362
+  title: FAN-enhanced vision transformer and distributed bidirectional optical flow
+    for heart failure detection from echocardiography videos
   authors:
-  - Dave Bunten
-  - Jenna Tomkinson
-  - Erik Serrano
-  - Michael J. Lippincott
-  - Kenneth I. Brewer
-  - Vince Rubinetti
-  - Faisal Alquaddoomi
-  - Gregory P. Way
-  publisher: Patterns
-  date: '2026-05-01'
-  link: https://doi.org/hbvg3p
-  orcid: 0000-0002-4655-3773
+  - Mgs. M. Luthfi Ramadhan
+  - Rossi Passarella
+  - Muhammad Febrian Rachmadi
+  - Mastura Diana Marieska
+  - Lies Dina Liastuti
+  publisher: Journal of Information and Telecommunication
+  date: '2026-06-13'
+  link: https://doi.org/hb7pbk
+  orcid: 0009-0002-7768-0238
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2025.06.19.660613
-  title: Scalable data harmonization for single-cell image-based profiling with CytoTable
+- id: doi:10.11591/ijeecs.v42.i1.pp115-122
+  title: Dilated residual U-Net for vegetation detection from high resolution drone
+    aerial imagery
   authors:
-  - Dave Bunten
-  - Jenna Tomkinson
-  - Erik Serrano
-  - Michael J. Lippincott
-  - Kenneth I. Brewer
-  - Vince Rubinetti
-  - Faisal Alquaddoomi
-  - Gregory P. Way
-  publisher: openRxiv
-  date: '2025-06-25'
-  link: https://doi.org/g9rfr3
-  orcid: 0000-0002-4655-3773
+  - Mgs. M. Luthfi Ramadhan
+  - Rizal Maulana
+  - Lalu Syamsul Khalid
+  publisher: Indonesian Journal of Electrical Engineering and Computer Science
+  date: '2026-04-01'
+  link: https://doi.org/hb7pbm
+  orcid: 0000-0001-8571-8924
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
+- id: doi:10.12928/telkomnika.v23i6.26829
+  title: Mixed attention mechanism on ResNet-DeepLabV3+ for paddy field segmentation
   authors:
-  - Tim E Putman
-  - Kevin Schaper
-  - Nicolas Matentzoglu
-  - "Vincent\_P Rubinetti"
-  - "Faisal\_S Alquaddoomi"
-  - Corey Cox
-  - J Harry Caufield
-  - Glass Elsarboukh
-  - Sarah Gehrke
-  - Harshad Hegde
-  - "Justin\_T Reese"
-  - Ian Braun
-  - "Richard\_M Bruskiewich"
-  - Luca Cappelletti
-  - Seth Carbon
-  - "Anita\_R Caron"
-  - "Lauren\_E Chan"
-  - "Christopher\_G Chute"
-  - "Katherina\_G Cortes"
-  - "Vin\xEDcius De\_Souza"
-  - Tommaso Fontana
-  - "Nomi\_L Harris"
-  - "Emily\_L Hartley"
-  - Eric Hurwitz
-  - "Julius\_O B Jacobsen"
-  - Madan Krishnamurthy
-  - "Bryan\_J Laraway"
-  - "James\_A McLaughlin"
-  - "Julie\_A McMurry"
-  - "Sierra\_A T Moxon"
-  - "Kathleen\_R Mullen"
-  - "Shawn\_T O\u2019Neil"
-  - "Kent\_A Shefchek"
-  - Ray Stefancsik
-  - Sabrina Toro
-  - "Nicole\_A Vasilevsky"
-  - "Ramona\_L Walls"
-  - "Patricia\_L Whetzel"
-  - David Osumi-Sutherland
-  - Damian Smedley
-  - "Peter\_N Robinson"
-  - "Christopher\_J Mungall"
-  - "Melissa\_A Haendel"
-  - "Monica\_C Munoz-Torres"
-  publisher: Nucleic Acids Research
-  date: '2023-11-24'
-  link: https://doi.org/gs6kmr
-  orcid: 0000-0002-4655-3773
+  - Alya Khairunnisa Rizkita
+  - Masagus Muhammad Luthfi Ramadhan
+  - Yohanes Fridolin Hestrio
+  - Muhammad Hannan Hunafa
+  - Danang Surya Candra
+  - Wisnu Jatmiko
+  publisher: TELKOMNIKA (Telecommunication Computing Electronics and Control)
+  date: '2025-12-01'
+  link: https://doi.org/hbpgph
+  orcid: 0000-0001-8571-8924
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.10.11.560955
-  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
+- id: doi:10.1109/ACCESS.2025.3550949
+  title: Convolutional Autoencoder With Sequential and Channel Attention for Robust
+    ECG Signal Denoising With Edge Device Implementation
   authors:
-  - Richard J. Abdill
-  - Samantha P. Graham
-  - Vincent Rubinetti
-  - Frank W. Albert
-  - Casey S. Greene
-  - Sean Davis
-  - Ran Blekhman
-  publisher: openRxiv
-  date: '2023-10-11'
-  link: https://doi.org/gsvf5z
-  orcid: 0000-0002-4655-3773
+  - Alif Wicaksana Ramadhan
+  - Syifa Kushirayati
+  - Salsabila Aurellia
+  - Mgs M. Luthfi Ramadhan
+  - Muhammad Hannan Hunafa
+  - Muhammad Febrian Rachmadi
+  - Aprinaldi Jasa Mantau
+  - Siti Nurmaini
+  - Satria Mandala
+  - Wisnu Jatmiko
+  publisher: IEEE Access
+  date: '2025-01-01'
+  link: https://doi.org/g9p6s7
+  orcid: 0000-0001-8571-8924
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
+- id: doi:10.1109/ACCESS.2025.3558558
+  title: 'Fusion+: A Multi-Sensor Image Fusion for Very High-Resolution Satellite
+    Imagery'
   authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
+  - Yohanes Fridolin Hestrio
+  - Danang Surya Candra
+  - Randy Prima Brahmantara
+  - Yudhi Prabowo
+  - Anjar Dimara Sakti
+  - MGS M. Luthfi Ramadhan
+  - Yong Loong Yap
+  - Kurniawati Azizah
+  - Muhammad Hafizhuddin Hilman
+  - Stuart Phinn
+  - Sin Liang Lim
+  - Wisnu Jatmiko
+  publisher: IEEE Access
+  date: '2025-01-01'
+  link: https://doi.org/g9fdvx
+  orcid: 0000-0001-8571-8924
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
+- id: doi:10.1109/ACCESS.2025.3580481
+  title: Hybrid Wavelet-Attention Model for Detecting Changes in High-Resolution Remote
+    Sensing Images
   authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: openRxiv
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
+  - Lhuqita Fazry
+  - MGS M. Luthfi Ramadhan
+  - Alif Wicaksana Ramadhan
+  - Muhammad Febrian Rachmadi
+  - Aprinaldi Jasa Mantau
+  - Lukito Edi Nugroho
+  - Chi-Hung Chi
+  - Wisnu Jatmiko
+  publisher: IEEE Access
+  date: '2025-01-01'
+  link: https://doi.org/g933cx
+  orcid: 0000-0001-8571-8924
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
+- id: doi:10.1109/ACCESS.2025.3582643
+  title: Weighted Ensemble Based on Prisoner Dilemma for Facial Expression Recognition
   authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
+  - Muhammad Hannan Hunafa
+  - M Luthfi Ramadhan Mgs
+  - Alif Wicaksana Ramadhan
+  - Muhammad Febrian Rachmadi
+  - Wisnu Jatmiko
+  publisher: IEEE Access
+  date: '2025-01-01'
+  link: https://doi.org/g9rsbp
+  orcid: 0000-0001-8571-8924
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2022.02.18.461833
-  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
-    and phylogeny'
-  authors:
-  - Faisal S Alquaddoomi
-  - Joseph T Burke
-  - Lo Sosinski
-  - David A Mayer
-  - Evan P Brenner
-  - Samuel Z Chen
-  - Jacob D Krol
-  - Ethan P Wolfe
-  - Vincent P Rubinetti
-  - Shaddai Amolitos
-  - Kellen M Reason
-  - John B Johnston
-  - Janani Ravi
-  publisher: openRxiv
-  date: '2022-02-22'
-  link: https://doi.org/gstx7j
-  orcid: 0000-0002-4655-3773
+- title: An alternative for kernel SVM when stacked with a neural network
+  publisher: Jurnal Ilmu Komputer dan Informasi
+  date: '2024-03-14'
+  link: https://jiki.cs.ui.ac.id/index.php/jiki/article/view/1172
+  orcid: 0000-0001-8571-8924
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
+- title: Enhancing Assault Maneuvers in Simulated Scenarios of Multiple Invader Kamikaze
+    Drones through the Utilization of a Modified Adaptive Elforce Algorithm
+  publisher: Jurnal Ilmu Komputer dan Informasi
+  date: '2024-03-14'
+  link: https://jiki.cs.ui.ac.id/index.php/jiki/article/view/1202
+  orcid: 0000-0001-8571-8924
+  plugin: orcid.py
+  file: orcid.yaml
+- title: Improving Remote Sensing Change Detection Via Locality Induction on Feed-forward
+    Vision Transformer
+  publisher: Jurnal Ilmu Komputer dan Informasi
+  date: '2024-03-14'
+  link: https://jiki.cs.ui.ac.id/index.php/jiki/article/view/1188
+  orcid: 0000-0001-8571-8924
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1063/5.0207899
+  title: Automatic morphological human embryo assessment using convolutional neural
+    network and resampling technique
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
+  - Rusnanda Farhan
+  - Ahmad Kemal Harzif
+  - Mgs M. Luthfi Ramadhan
+  - Wisnu Jatmiko
+  publisher: AIP Conference Proceedings
+  date: '2024-01-01'
+  link: https://doi.org/hbpgpj
+  orcid: 0000-0001-8571-8924
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/access.2024.3361287
+  title: Building Damage Assessment Using Feature Concatenated Siamese Neural Network
+  authors:
+  - Mgs M. Luthfi Ramadhan
+  - Grafika Jati
+  - Wisnu Jatmiko
+  publisher: IEEE Access
+  date: '2024-01-01'
+  link: https://doi.org/gtgw74
+  orcid: 0000-0001-8571-8924
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/ACCESS.2024.3510774
+  title: Time-Distributed Vision Transformer Stacked With Transformer for Heart Failure
+    Detection Based on Echocardiography Video
+  authors:
+  - Mgs M. Luthfi Ramadhan
+  - Adyatma W. A. Nugraha Yudha
+  - Muhammad Febrian Rachmadi
+  - Kevin Moses Hanky Jr Tandayu
+  - Lies Dina Liastuti
+  - Wisnu Jatmiko
+  publisher: IEEE Access
+  date: '2024-01-01'
+  link: https://doi.org/g8t4kn
+  orcid: 0000-0001-8571-8924
+  plugin: orcid.py
+  file: orcid.yaml
+- title: Encoder-Decoder with Atrous Spatial Pyramid Pooling for Left Ventricle Segmentation
+    in Echocardiography
+  publisher: Jurnal Ilmu Komputer dan Informasi
+  date: '2024-03-14'
+  link: https://jiki.cs.ui.ac.id/index.php/jiki/article/view/1165
+  orcid: 0000-0001-8571-8924
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/ACCESS.2023.3292531
+  title: Change Detection of High-Resolution Remote Sensing Images Through Adaptive
+    Focal Modulation on Hierarchical Feature Maps
+  authors:
+  - Lhuqita Fazry
+  - Mgs M. Luthfi Ramadhan
+  - Wisnu Jatmiko
+  publisher: IEEE Access
+  date: '2023-01-01'
+  link: https://doi.org/gtchs4
+  orcid: 0000-0001-8571-8924
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/iwbis56557.2022.9924685
+  title: Modified MultiResUNet for Left Ventricle Segmentation from Echocardiographic
+    Images
+  authors:
+  - Fityan Azizi
+  - Akbar Fathur Sani
+  - Rinto Priambodo
+  - Wisma Chaerul Karunianto
+  - Mgs M Luthfi Ramadhan
+  - Muhammad Febrian Rachmadi
+  - Wisnu Jatmiko
+  publisher: 2022 7th International Workshop on Big Data and Information Security
+    (IWBIS)
+  date: '2022-10-01'
+  link: https://doi.org/hbpgpk
+  orcid: 0000-0001-8571-8924
+  plugin: orcid.py
+  file: orcid.yaml
+- title: Learning Intelligent for Effective Sonography (LIFES) Model for Rapid Diagnosis
+    of Heart Failure in Echocardiography
+  publisher: Acta Medica Indonesiana
+  date: '2023-01-14'
+  orcid: 0000-0001-8571-8924
+  plugin: orcid.py
+  file: orcid.yaml
+- id: issn:01259326 23382732
+  title: ''
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://portal.issn.org/resource/ISSN/01259326 23382732
+  orcid: 0000-0001-8571-8924
+  plugin: orcid.py
+  file: orcid.yaml
+- title: 'Neural Network: The Dead Neuron'
+  publisher: Towards Data Science
+  date: '2022-05-09'
+  link: https://towardsdatascience.com/neural-network-the-dead-neuron-eaa92e575748
+  orcid: 0000-0001-8571-8924
+  plugin: orcid.py
+  file: orcid.yaml
+- title: Radial Basis Function Neural Network Simplified
+  publisher: Towards Data Science
+  date: '2022-05-09'
+  link: https://towardsdatascience.com/radial-basis-function-neural-network-simplified-6f26e3d5e04d
+  orcid: 0000-0001-8571-8924
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/iwbis53353.2021.9631844
+  title: Collapsed Building Detection Using Residual Siamese Neural Network On LiDAR
+    Data
+  authors:
+  - Mgs M Luthfi Ramadhan
+  - Grafika Jati
+  - Machmud Roby Alhamidi
+  - Riskyana Dewi Intan P
+  - Muhammad Hafizhuddin Hilman
+  - Wisnu Jatmiko
+  publisher: 2021 6th International Workshop on Big Data and Information Security
+    (IWBIS)
+  date: '2021-10-23'
+  link: https://doi.org/hbpgpm
+  orcid: 0000-0001-8571-8924
+  plugin: orcid.py
+  file: orcid.yaml
+- title: Biometrics Simplified
+  publisher: Towards Data Science
+  date: '2022-05-09'
+  link: https://towardsdatascience.com/biometrics-simplified-e9ed096d0025
+  orcid: 0000-0001-8571-8924
+  plugin: orcid.py
+  file: orcid.yaml
+- title: Relevance Ranking Simplified
+  publisher: Towards Data Science
+  date: '2022-05-09'
+  link: https://towardsdatascience.com/relevance-ranking-simplified-e8eeea829713
+  orcid: 0000-0001-8571-8924
+  plugin: orcid.py
+  file: orcid.yaml
+- title: TF-IDF Simplified
+  publisher: Towards Data Science
+  date: '2022-05-09'
+  link: https://towardsdatascience.com/tf-idf-simplified-aba19d5f5530
+  orcid: 0000-0001-8571-8924
+  plugin: orcid.py
+  file: orcid.yaml
+- title: 'Neural Network: The Essence of Artificial Neural Network'
+  publisher: Towards Data Science
+  date: '2022-05-09'
+  link: https://towardsdatascience.com/neural-network-the-essence-of-artificial-neural-network-c605eb32de56
+  orcid: 0000-0001-8571-8924
+  plugin: orcid.py
+  file: orcid.yaml
+- title: 'Neural Network: Breaking The Symmetry'
+  publisher: Towards Data Science
+  date: '2022-05-09'
+  link: https://towardsdatascience.com/neural-network-breaking-the-symmetry-e04f963395dd
+  orcid: 0000-0001-8571-8924
+  plugin: orcid.py
+  file: orcid.yaml
+- title: Email Spam Filtering Menggunakan Multilayer Perceptron dengan Metode Pelatihan
+    Stochastic Gradient Descent (SGD) dan Momentum
+  date: '2022-05-06'
+  link: https://repository.unsri.ac.id/28260/
+  orcid: 0000-0001-8571-8924
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3311/pptr.41673
+  title: Evaluation and Comparison of Classification Models for Predicting Crash Severity
+  authors:
+  - Rossi Passarella
+  - Isbatudinia Isbatudinia
+  - Mastura Diana Marieska
+  - Dedy Kurniawan
+  - Romi Fadillah Rahmat
+  - Harumi Veny
+  publisher: Periodica Polytechnica Transportation Engineering
+  date: '2026-03-26'
+  link: https://doi.org/hb7pbn
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.12775/EQ.2026.008
+  title: 'A decade of Artificial Intelligence in water management: A systematic review
+    of progress, applications, and challenges (2010-2025)'
+  authors:
+  - Rossi Passarella
+  - Ednagea Almira
+  - Harumi Veny
+  - Mastura Diana Marieska
+  publisher: Ecological Questions
+  date: '2026-01-23'
+  link: https://doi.org/hb7pbp
+  orcid: 0009-0002-7768-0238
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.56578/ijtdi090408
+  title: Leveraging Real-Time GTFS and Integrated Data for High-Accuracy LRT Departure
+    Delay Prediction Using Optimized Machine Learning
+  authors:
+  - Rossi Passarella
+  - Aulya Putri Ayu
+  - Mastura Diana Marieska
+  - Isbatudinia Isbatudinia
+  - Nurainiyah Solehan
+  - Harumi Veny
+  - Romi Fadillah Rahmat
+  publisher: International Journal of Transport Development and Integration
+  date: '2025-12-23'
+  link: https://doi.org/hb7pbq
+  orcid: 0009-0002-7768-0238
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.62189/ci.1695546
+  title: Forecasting Indonesian food price inflation with multivariate time series
+    and machine learning approaches
+  authors:
+  - Ahmad Alfarrel Ghazali
+  - Rossi Passarella
+  - Zaqqi Yamani
+  publisher: Computers and Informatics
+  date: '2025-12-21'
+  link: https://doi.org/hb7pbr
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.jics.2025.102233
+  title: Effect of biodiesel and triacetin produced via enzymatic interesterification
+    of waste cooking oil on diesel engine gas emissions
+  authors:
+  - Risal Ishak
+  - Harumi Veny
+  - Fazlena Hamzah
+  - Siti Wahidah Puasa
+  - Rossi Passarella
+  - Syafiza abd Hashib
+  publisher: Journal of the Indian Chemical Society
+  date: '2025-12-01'
+  link: https://doi.org/hb7pbs
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.aets.2025.12.002
+  title: 'Forecasting air transport demand in Indonesia: A machine learning approach
+    considering socio-economic factors and pandemic impact'
+  authors:
+  - Zona Diatri
+  - Rossi Passarella
+  - Zaqqi Yamani
+  publisher: Aerospace Traffic and Safety
+  date: '2025-12-01'
+  link: https://doi.org/hb7pbt
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/icaitech66481.2025.11387614
+  title: A Multi-Horizon Machine Learning Model for Sepsis Mortality Prediction in
+    the ICU Based on Early Vital Sign Trends
+  authors:
+  - Irawan Irawan
+  - Rossi Passarella
+  - Jasmir Jasmir
+  - Marrylinteri Istoningtyas
+  publisher: 2025 International Conference on Artificial Intelligence and Technological
+    Solutions (ICAITech)
+  date: '2025-11-20'
+  link: https://doi.org/hb7pbv
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/icaitech66481.2025.11387730
+  title: Enhancing Fetal Echocardiography Segmentation with YOLOv8 using Ablation
+    Techniques on Deep Learning Backbone Layers
+  authors:
+  - ' Sutarno'
+  - Bhakti Yudho Suprapto
+  - Radiyati Umi Partan
+  - ' Abdurrahman'
+  - Naufal Rachmatullah
+  - Rossi Passarella
+  publisher: 2025 International Conference on Artificial Intelligence and Technological
+    Solutions (ICAITech)
+  date: '2025-11-20'
+  link: https://doi.org/hb7pbw
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/icaitech66481.2025.11387293
+  title: 'Preprocessing Strategies for Brain Tumor Classification: ResNet50 Fine-Tuning
+    and Image Enhancement Techniques'
+  authors:
+  - Nurlayli Indah Sari
+  - Rossi Passarella
+  publisher: 2025 International Conference on Artificial Intelligence and Technological
+    Solutions (ICAITech)
+  date: '2025-11-20'
+  link: https://doi.org/hb7pbx
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/elticom67568.2025.11335978
+  title: IndoBERT for Indonesia Crime News Classification
+  authors:
+  - ' Herriyance'
+  - Fahrurrozi Lubis
+  - Riris G.S. Gultom
+  - ' Al-Khowarizmi'
+  - Rossi Pasarella
+  - Romi Fadillah Rahmat
+  publisher: 2025 9th International Conference on Electrical, Telecommunication and
+    Computer Engineering (ELTICOM)
+  date: '2025-11-06'
+  link: https://doi.org/hb7pbz
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s44257-025-00044-3
+  title: Unemployment rate forecasting in Indonesia using macroeconomic indicators
+    with a machine learning approach
+  authors:
+  - Tanti Annastasya
+  - Rossi Passarella
+  - Zaqqi Yamani
+  publisher: Discover Analytics
+  date: '2025-09-29'
+  link: https://doi.org/hb7pb2
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.56578/ataiml040302
+  title: Comparative Analysis of Machine Learning Models for Predicting Indonesia's
+    GDP Growth
+  authors:
+  - Rossi Passarella
+  - Muhammad Ikhsan Setiawan
+  - Zaqqi Yamani
+  publisher: Acadlore Transactions on AI and Machine Learning
+  date: '2025-07-04'
+  link: https://doi.org/hb7pb3
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.21203/rs.3.rs-6715560/v1
+  title: 'Predicting Indonesia''s Unemployment Rate Using Machine Learning and Macroeconomic
+    Indicators: A Time Series Approach'
+  authors:
+  - Tanti Annastasya
+  - Rossi Passarella
+  - Zaqqi Yamani
+  publisher: Springer Science and Business Media LLC
+  date: '2025-05-23'
+  link: https://doi.org/hb7pb4
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.21203/rs.3.rs-6691034/v1
+  title: 'Forecasting Indonesian Goods and Services Imports Using Machine Learning:
+    A Comparative Evaluation of Model Performance'
+  authors:
+  - Ferdinand Gusleo
+  - Rossi Passarella
+  publisher: Springer Science and Business Media LLC
+  date: '2025-05-21'
+  link: https://doi.org/hb7pb5
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.32388/LJ1EK7
+  title: 'Evaluation of Indonesia''s Scientific Publication Performance: Quantity,
+    Quality, Open Access, and Comparison with ASEAN Countries'
+  authors:
+  - Isbatudinia Isbatudinia
+  - Rossi Passarella
+  publisher: Qeios Ltd
+  date: '2025-05-20'
+  link: https://doi.org/hb7pb6
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.18280/ijtdi.090112
+  title: A Clustering Approach to Enhancing Marine Transportation Services in the
+    Thousand Islands Regency, Indonesia
+  authors:
+  - Rossi Passarella
+  - Rani Febrianti
+  - Marsella Vindriani
+  - Mohd Shahriman Adenan
+  publisher: International Journal of Transport Development and Integration
+  date: '2025-03-31'
+  link: https://doi.org/hb7pb7
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.24996/ijs.2025.66.2.16
+  title: Data Analysis of COVID-19 Exploration on the 'Peduli-lindungi' Application
+    in Indonesia
+  authors:
+  - Rossi Passarella
+  - Kemahyanto Exaudi
+  - Gulfi Oktariani
+  - Xosya Salassa
+  publisher: Iraqi Journal of Science
+  date: '2025-02-28'
+  link: https://doi.org/hb7pb8
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.32388/c5pnqs
+  title: 'Review of: "Data Integrity vs. Inference Accuracy in Large AIS Datasets"'
+  authors:
+  - Rossi Passarella
+  publisher: Qeios Ltd
+  date: '2025-02-19'
+  link: https://doi.org/hb7pb9
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2139/ssrn.5504021
+  title: 'AI and Human Rights: Navigating the Impact on Privacy, Freedom of Expression,
+    and Equality'
+  authors:
+  - Rossi Passarella
+  publisher: Elsevier BV
+  date: '2025-01-01'
+  link: https://doi.org/hb7pcb
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2139/ssrn.5388486
+  title: 'Ai and Human Rights: Navigating the Impact on Privacy, Freedom of Expression,
+    and Equality'
+  authors:
+  - Rossi Passarella
+  publisher: Elsevier BV
+  date: '2025-01-01'
+  link: https://doi.org/hb7pcc
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.56578/hf020405
+  title: 'Machine Learning and Deep Learning for Brain Tumor Diagnosis and Classification:
+    Methodologies, Challenges, and Future Directions'
+  authors:
+  - Sekar Nurul Fadilla
+  - Rossi Passarella
+  publisher: Healthcraft Frontiers
+  date: '2024-12-31'
+  link: https://doi.org/hb7pcd
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.5604/01.3001.0054.9635
+  title: Using Machine Learning to Identify Clustering Patterns of Traffic Accidents
+  authors:
+  - Rossi Passarella
+  - Putri Shobiroh Utami
+  - Huda Ubaya
+  - Rifka Widyastuti
+  publisher: WUT Journal of Transportation Engineering
+  date: '2024-12-01'
+  link: https://doi.org/hb7pcf
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.14293/P2199-8442.1.SOP-.P1QIQW.v1
+  title: ANALYSIS OF TAKEOFF BEHAVIOR OF A320 AND B738 AIRCRAFT AT SULTAN HASANUDDIN
+    INTERNATIONAL AIRPORT BASED ON UNSUPERVISED LEARNING
+  authors:
+  - Rossi Passarella
+  - Huda Ubaya
+  - Sutarno Sutarno
+  publisher: ScienceOpen
+  date: '2024-12-20'
+  link: https://doi.org/hb7pcg
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.aets.2024.12.004
+  title: Anomaly detection in commercial aircraft landing at SSK II airport using
+    clustering method
+  authors:
+  - Rossi Passarella
+  - Taswiyah Marsyah Noor
+  - Osvari Arsalan
+  - Mohd Shahriman Adenan
+  publisher: Aerospace Traffic and Safety
+  date: '2024-12-01'
+  link: https://doi.org/hb7pch
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.20858/sjsutst.2024.124.9
+  title: DATA INVESTIGATION OF PK-LQP AIRPLANE VERTICAL DEVIATION USING CLASS 1 AND
+    TIER 1 DATASETS
+  authors:
+  - Rossi PASSARELLA
+  - Siti NURMAINI
+  - Muhammad Naufal RACHMATULLAH
+  - Harumi VENY
+  - Huda UBAYA
+  - Firdaus FIRDAUS
+  publisher: Scientific Journal of Silesian University of Technology. Series Transport
+  date: '2024-09-30'
+  link: https://doi.org/hb7pcj
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.18280/ijsse.140418
+  title: Classification Models for Assessing the Severity of Marine Accidents Based
+    on Machine Learning
+  authors:
+  - Rossi Passarella
+  - Arinda I. Safitri
+  - Nyayu Latifah Husni
+  - Rifka Widyastuti
+  - Harumi Veny
+  publisher: International Journal of Safety and Security Engineering
+  date: '2024-08-30'
+  link: https://doi.org/hb7pck
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.31306/s.66.2.3
+  title: An unsupervised learning-based analysis of the take-off behavior of the A320
+    and B738 at Sultan Hasanuddin international airport
+  authors:
+  - Rizki Kurniati
+  - Rossi Passerella
+  - Indra Gifari Afriansyah
+  - Osvari Arsalan
+  - Aditya Aditya
+  - Muhammad Rizki Fathan
+  - Rani Silvani Yousnaidi
+  - Harumi Veny
+  publisher: Sigurnost
+  date: '2024-07-08'
+  link: https://doi.org/hb7pcm
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2139/ssrn.4758981
+  title: Automatic Text Summarization on Aviation Traffic Accident Report Synopsis
+    Using Term Frequency- Inverse Document Frequency (TF-IDF) Algorithm
+  authors:
+  - Muhammad Farhan Hilman
+  - Rossi Passarella
+  - Dedy Kurniawan
+  - Sutarno Sutarno
+  publisher: SSRN Electronic Journal
+  date: '2024-01-01'
+  link: https://doi.org/hb7pcn
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.dsm.2024.03.002
+  title: Development of a machine learning model for predicting abnormalities of commercial
+    airplanes
+  authors:
+  - Rossi Passarella
+  - Siti Nurmaini
+  - Muhammad Naufal Rachmatullah
+  - Harumi Veny
+  - Fara Nissya Nur Hafidzoh
+  publisher: Data Science and Management
+  date: '2024-09-01'
+  link: https://doi.org/hb7pcp
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2139/ssrn.4759841
+  title: 'Identifying the Media Empowerment of Aircraft Jet Sales: An Experimental
+    Study'
+  authors:
+  - Rossi Passarella
+  - Dedy Kurniawan
+  - Waratta Authayarat
+  - Rifka Widyastuti
+  - Nyayu Latifah Husni
+  publisher: SSRN Electronic Journal
+  date: '2024-01-01'
+  link: https://doi.org/hb7pcq
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.11591/ijai.v13.i2.pp1679-1686
+  title: Improving the performance for automated brain tumor classification on magnetic
+    resonance imaging deep learningbased
+  authors:
+  - Muhammad Fachrurrozi
+  - Annisa Darmawahyuni
+  - Samsuryadi Samsuryadi
+  - Rossi Passarella
+  - Jerrel Adriel Archibald Hutahaean
+  publisher: IAES International Journal of Artificial Intelligence (IJ-AI)
+  date: '2024-06-01'
+  link: https://doi.org/hb7pcr
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2139/ssrn.4847038
+  title: Use of Regression Models to Measure the Relationship between Electronic Media
+    Use and Sleep Duration
+  authors:
+  - Rossi Passarella
+  - Fara Nissya Nur HAFIDZOH
+  - Indri Seta SEPTADINA
+  - Eka Febri ZULISSETIANA
+  - Rifka Widyastuti
+  publisher: SSRN Electronic Journal
+  date: '2024-01-01'
+  link: https://doi.org/hb7pcs
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48295/et.2023.95.4
+  title: What ADS-B Data Can Tell Us About HL7525(KAL631) Accident at the CEBU Airport
+  authors:
+  - Rossi Passarella
+  publisher: European Transport/Trasporti Europei
+  date: '2023-12-01'
+  link: https://doi.org/hb7pct
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.18280/ijsse.130505
+  title: Analysis of Commercial Airplane Accidents Worldwide Using K-Means Clustering
+  authors:
+  - Rossi Passarella
+  - Muhammad Dion Iqbal
+  - Muhammad Ali Buchari
+  - Harumi Veny
+  publisher: International Journal of Safety and Security Engineering
+  date: '2023-11-10'
+  link: https://doi.org/hb7pcv
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.18495/comengapp.v12i3.427
+  title: Littering Activities Monitoring using Image Processing
+  authors:
+  - Nyayu Latifah Husni
+  - Ade Silvia Handayani
+  publisher: Computer Engineering and Applications Journal
+  date: '2023-10-01'
+  link: https://doi.org/hb7pcw
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.20858/sjsutst.2023.120.15
+  title: DATA ANALYSIS OF COMMERCIAL AIRCRAFT LANDING ON THE RUNWAY AIRPORTS IN INDONESIA
+  authors:
+  - Rossi PASSARELLA
+  - Siti NURMAINI
+  - Muhammad Naufal RACHMATULLAH
+  - Osvari ARSALAN
+  - Rizki KURNIATI
+  - Aditya ADITYA
+  - Indra Gifari AFRIANSYAH
+  - Rifqi FATHAN
+  - Rani Silvani YOUSNAIDI
+  - Harumi VENY
+  publisher: Scientific Journal of Silesian University of Technology. Series Transport
+  date: '2023-09-01'
+  link: https://doi.org/hb7pcx
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.56578/atams010104
+  title: 'Evaluating the Influence of the International Civil Aviation Organization
+    on Aircraft Accident Rates and Fatalities: A Seven-Decade Historical Data Analysis'
+  authors:
+  - Rossi Passarella
+  - Harumi Veny
+  - Muhammad Fachrurrozi
+  - Samsuryadi Samsuryadi
+  - Marsella Vindriani
+  publisher: Acadlore Transactions on Applied Mathematics and Statistics
+  date: '2023-06-14'
+  link: https://doi.org/hb7pcz
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.56578/jgelcd020205
+  title: "Impact of Movement Restrictions During COVID-19 on Jakarta\u2019s Air Quality:\
+    \ A Comparative Analysis"
+  authors:
+  - Rossi Passarella
+  - Harumi Veny
+  publisher: Journal of Green Economy and Low-Carbon Development
+  date: '2023-06-30'
+  link: https://doi.org/hb7pc2
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.56578/mits020202
+  title: Assessing Automatic Dependent Surveillance-Broadcast Signal Quality for Airplane
+    Departure Using Random Forest Algorithm
+  authors:
+  - Rani Silvani Yousnaidi
+  - Rossi Passarella
+  - Rizki Kurniati
+  - Osvari Arsalan
+  - ' Aditya'
+  - Indra Gifari Afriansyah
+  - Muhammad Rifqi Fathan
+  - Marsella Vindriani
+  publisher: Mechatronics and Intelligent Transportation Systems
+  date: '2023-05-29'
+  link: https://doi.org/hb7pc3
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.18495/generic.v15i1.146
+  title: 'Aero-Track: Perangkat Lunak Perekam Data Penerbangan Aeronautika'
+  authors:
+  - Muhammad Rifqi Fathan
+  - Aditya Aditya
+  - Indra Gifari Afriansyah
+  - Rani Silvani Yousnaidi
+  - Rossi Passarela
+  - Osvari Arsalan
+  - Rizki Kurniati
+  - Marsella Vindriani
+  publisher: Generic
+  date: '2023-01-31'
+  link: https://doi.org/hb7pc4
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2991/978-94-6463-118-0_53
+  title: Datasets Training and Testing in Littering Activity Classification
+  authors:
+  - Nyayu Latifah Husni
+  - Ade Silvia Handayani
+  - Rossi Passarella
+  - Akhmad Bastari
+  - Marlina Sylvia
+  publisher: Atlantis Highlights in Engineering
+  date: '2023-01-01'
+  link: https://doi.org/hb7pc5
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3991/ijoe.v19i17.42499
+  title: 'Empowering AI-Diagnosis: Deep Learning Abilities for Accurate Atrial Fibrillation
+    Classification'
+  authors:
+  - Bambang Tutuko
+  - Annisa Darmawahyuni
+  - Siti Nurmaini
+  - Muhammad Naufal Rachmatullah
+  - Firdaus Firdaus
+  - Sutarno Sutarno
+  - Rossi Passarella
+  - Ade Iriani Sapitri
+  - Anggun Islami
+  - Muhammad Wahyu Ramansyah
+  - Muhammd Isra Al Hadi
+  publisher: International Journal of Online and Biomedical Engineering (iJOE)
+  date: '2023-12-15'
+  link: https://doi.org/hb7pc6
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/eng4040155
+  title: Pose Detection and Recurrent Neural Networks for Monitoring Littering Violations
+  authors:
+  - Nyayu Latifah Husni
+  - Okta Felia
+  - ' Abdurrahman'
+  - Ade Silvia Handayani
+  - Rosi Pasarella
+  - Akhmad Bastari
+  - Marlina Sylvia
+  - Wahyu Rahmaniar
+  - Seyed Amin Hosseini Seno
+  - Wahyu Caesarendra
+  publisher: Eng
+  date: '2023-10-30'
+  link: https://doi.org/hb7pc7
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/softt56880.2022.10010295
+  title: IoT-Based Transmission Tower Monitoring Communications and Visualization
+    Platform
+  authors:
+  - Mohamad Razin Naim Mohd Alias
+  - Dzahir Rashidi Mohd Dzaki
+  - Norashidah Md Din
+  - Siti Noratiqah Mohd Deros
+  - Rossi Passarella
+  - Azzam Eusuf Chaai Amier Chaai
+  publisher: 2022 IEEE Symposium on Future Telecommunication Technologies (SOFTT)
+  date: '2022-11-14'
+  link: https://doi.org/hb7pc8
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.5937/jaes0-38696
+  title: 'Behavioral evidence of public aircraft with historical data: The case of
+    Boeing 737 MAX 8 PK-LQP'
+  authors:
+  - Rossi Passarella
+  - Siti Nurmaini
+  publisher: Journal of Applied Engineering Science
+  date: '2022-01-01'
+  link: https://doi.org/hb7pc9
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.25103/jestr.153.17
+  title: 'Data Analysis Investigation: Papua is The Most Unsafe Province in Indonesia
+    for Aviation: An Exploratory Data Analysis Study from KNKT-Database Accidents
+    and Incidents (1988-2021)'
+  authors:
+  - Rossi Passarella
+  - Siti Nurmaini
+  publisher: Journal of Engineering Science and Technology Review
+  date: '2022-01-01'
+  link: https://doi.org/hb7pdb
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.26554/sti.2022.7.3.284-290
+  title: Performance Improvement of Decision Tree Model using Fuzzy Membership Function
+    for Classification of Corn Plant Diseases and Pests
+  authors:
+  - Yulia Resti
+  - Chandra Irsan
+  - Muflika Amini
+  - Irsyadi Yani
+  - Rossi Passarella
+  - Des Alwine Zayantii
+  publisher: Science and Technology Indonesia
+  date: '2022-07-28'
+  link: https://doi.org/hb7pdc
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.14293/S2199-1006.1.SOR-.PP0UESG.v1
+  title: What influence does the ICAO have on Passengers safety based on data analysis
+    from past commercial aircraft accidents utilizing EDA Method?
+  authors:
+  - Rossi Passarella
+  - M. Daffa Badran
+  publisher: ScienceOpen
+  date: '2022-05-18'
+  link: https://doi.org/hb7pdd
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.24191/mjcet.v5i1.15726
+  title: A comparative study on treatment for recycling of waste lubricating oil
+  authors:
+  - Huey Ling Tan
+  - Nurul Nadhirah Binti Azmi
+  - Harumi Veny
+  - Ying Pei Lim
+  - Rossi Passarella
+  publisher: Malaysian Journal of Chemical Engineering and Technology
+  date: '2022-04-30'
+  link: https://doi.org/hb7pdf
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1371/JOURNAL.PONE.0277932
+  title: 'DAE-ConvBiLSTM: End-to-end learning single-lead electrocardiogram signal
+    for heart abnormalities detection'
+  authors:
+  - Bambang Tutuko
+  - Annisa Darmawahyuni
+  - Siti Nurmaini
+  - Alexander Edo Tondas
+  - Muhammad Naufal Rachmatullah
+  - Samuel Benedict Putra Teguh
+  - Firdaus Firdaus
+  - Ade Iriani Sapitri
+  - Rossi Passarella
+  publisher: PLOS ONE
+  date: '2022-12-30'
+  link: https://doi.org/hb7pdg
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/S22062329
+  title: 'Short Single-Lead ECG Signal Delineation-Based Deep Learning: Implementation
+    in Automatic Atrial Fibrillation Identification'
+  authors:
+  - Bambang Tutuko
+  - Muhammad Naufal Rachmatullah
+  - Annisa Darmawahyuni
+  - Siti Nurmaini
+  - Alexander Edo Tondas
+  - Rossi Passarella
+  - Radiyati Umi Partan
+  - Ahmad Rifai
+  - Ade Iriani Sapitri
+  - Firdaus Firdaus
+  publisher: Sensors
+  date: '2022-03-17'
+  link: https://doi.org/gspxc9
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:WOS:000875483400001
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000875483400001
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.14569/ijacsa.2022.0130938
+  title: Using the Agglomerative Hierarchical Clustering Method to Examine Human Factors
+    in Indonesian Aviation Accidents
+  authors:
+  - Rossi Passarella
+  - Gulfi Oktariani
+  - Dedy Kurniawan
+  - Purwita Sari
+  publisher: International Journal of Advanced Computer Science and Applications
+  date: '2022-01-01'
+  link: https://doi.org/hb7pdh
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.18495/comengapp.v10i1.356
+  title: Cloud-based ECG Interpretation of Atrial Fibrillation Condition with Deep
+    Learning Technique
+  authors:
+  - Bambang Tutuko
+  - Rossi Passarella
+  - Firdaus Firdaus
+  - Muhammad Naufal Rachmatullah
+  - Annisa Darmawahyuni
+  - Ade Iriani Sapitri
+  - Siti Nurmaini
+  publisher: Computer Engineering and Applications Journal
+  date: '2021-02-01'
+  link: https://doi.org/hb7pdj
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2991/aisr.k.200424.041
+  title: Application of Water Height Puddles Based on Android and Arduino
+  authors:
+  - Ahmad Rifai
+  - Rahmat Izwan Heroza
+  - Sarmayanta Sembiring
+  - Rossi Passarela
+  - ' Alfarisi'
+  publisher: Proceedings of the Sriwijaya International Conference on Information
+    Technology and Its Applications (SICONIAN 2019)
+  date: '2020-01-01'
+  link: https://doi.org/hb7pdk
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2991/aisr.k.200424.033
+  title: Implementation of Fuzzy Logic Method for Lifting Control System on Autonomous
+    Underwater Vehicles
+  authors:
+  - Ahmad ZARKASI
+  - Rossi PASARELLA
+  - Siti NURMAINI
+  - Muhammad MAULANA
+  - Muhammad FAJAR
+  publisher: Proceedings of the Sriwijaya International Conference on Information
+    Technology and Its Applications (SICONIAN 2019)
+  date: '2020-01-01'
+  link: https://doi.org/hb7pdm
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2991/aisr.k.200424.070
+  title: Mathematical Implementation of Circle Hough Transformation Theorem Model
+    Using C# For Calculation Attribute of Circle
+  authors:
+  - ' SUTARNO'
+  - ' ABDURAHMAN'
+  - Rossi PASSARELLA
+  - Yosef PRIHANTO
+  - Rudy A.G GULTOM
+  publisher: Proceedings of the Sriwijaya International Conference on Information
+    Technology and Its Applications (SICONIAN 2019)
+  date: '2020-01-01'
+  link: https://doi.org/hb7pdn
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/ACCESS.2020.3034367
+  title: Accurate Detection of Septal Defects With Fetal Ultrasonography Images Using
+    Deep Learning-Based Multiclass Instance Segmentation
+  authors:
+  - Siti Nurmaini
+  - Muhammad Naufal Rachmatullah
+  - Ade Iriani Sapitri
+  - Annisa Darmawahyuni
+  - Adithia Jovandy
+  - Firdaus Firdaus
+  - Bambang Tutuko
+  - Rossi Passarella
+  publisher: IEEE Access
+  date: '2020-01-01'
+  link: https://doi.org/g6rdwm
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1088/1742-6596/1500/1/012105
+  title: Pull-down Fitness Technique Analysis using Motion Capture
+  authors:
+  - R Passarella
+  - A S Nugroho
+  - F N Arsyad
+  publisher: 'Journal of Physics: Conference Series'
+  date: '2020-04-01'
+  link: https://doi.org/hb7pdp
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:https://doi.org/10.2991/aisr.k.200424.071
+  title: System Design of Iris Ring Detection Using Circular Hough Algorithm for Iris
+    Localization
+  authors:
+  - Rossi Passarella
+  - Yosef Prihanto
+  - Rudy A. G. Gultom
+  publisher: Atlantis Press
+  date: '2020-05-06'
+  link: https://doi.org/hb7pdq
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1088/1757-899X/648/1/012023
+  title: Autonomous Surface Vehicle (ASV) Obstacle Avoidance Using Fuzzy Kohonen Network
+    (FKN)
+  authors:
+  - R Passarella
+  - A Zarkasi
+  - H Maghfur
+  - ' Sutarno'
+  - K Exsaudi
+  - APP Prasetyo
+  - H Veny
+  publisher: 'IOP Conference Series: Materials Science and Engineering'
+  date: '2019-10-01'
+  link: https://doi.org/hb7pdr
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1088/1757-899X/648/1/012018
+  title: "Design of A Convolutional Neural Network System to Increase Diagnostic Efficiency\
+    \ of Alzheimer\u2019s Disease"
+  authors:
+  - Faransi Al-azdi
+  - R Passarella
+  - A Susanto
+  - C Caroline
+  - RA Dwi Puspa
+  - T W Yudha
+  publisher: 'IOP Conference Series: Materials Science and Engineering'
+  date: '2019-10-01'
+  link: https://doi.org/hb7pds
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/ICIMCIS48181.2019.8985217
+  title: Detection of Carbon Monoxide Levels in Smoker's Body
+  authors:
+  - Muhammad Ali Buchari
+  - Kemahyanto Exaudi
+  - ' Rendyansyah'
+  - Aditya PP Prasetyo
+  - Rido Zulfahmi
+  - Rossi Passarella
+  publisher: 2019 International Conference on Informatics, Multimedia, Cyber and Information
+    System (ICIMCIS)
+  date: '2019-10-01'
+  link: https://doi.org/hb7pdt
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1088/1742-6596/1196/1/012061
+  title: Developing Tree Height Calculation by Using Aerial Photographs for Monitoring
+    Results of Revegetation Ex-mining Land Based on Government Regulation in Indonesia
+  authors:
+  - Huda Ubaya
+  - Rossi Passarella
+  - M. Imam Suganda
+  - Kemahyanto Exaudi
+  - F.M. Reza
+  - Harumi Veny
+  publisher: 'Journal of Physics: Conference Series'
+  date: '2019-03-01'
+  link: https://doi.org/hb7pdv
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/ICECOS47637.2019.8984594
+  title: Leak Detection in Water Pipe using FSR (Force Sensitive Resistor) Sensor
+  authors:
+  - Kemahyanto Exaudi
+  - Rossi Passarella
+  - ' Rendyansyah'
+  - Ades Harafi Duri
+  publisher: 2019 International Conference on Electrical Engineering and Computer
+    Science (ICECOS)
+  date: '2019-10-01'
+  link: https://doi.org/hb7pdw
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.25077/jnte.v7n1.446.2018
+  title: Perancangan Sistem Navigasi Robot Kapal Katamaran untuk Menghindari Rintangan
+    Menggunakan Logika Fuzzy
+  authors:
+  - Rossi Passarella
+  - Kemahyanto Exaudi
+  - Sayyidatina Fatimah
+  publisher: JURNAL NASIONAL TEKNIK ELEKTRO
+  date: '2018-03-27'
+  link: https://doi.org/hb7pdx
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1088/1742-6596/1007/1/012033
+  title: 'MISSIONS: The Mobile-Based Disaster Mitigation System in Indonesia'
+  authors:
+  - Rossi Passarella
+  - Sarifah Putri Raflesia
+  - Dinda Lestarini
+  - Ahmad Rifai
+  - Harumi Veny
+  publisher: 'Journal of Physics: Conference Series'
+  date: '2018-04-01'
+  link: https://doi.org/hb7pdz
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/ICECOS.2018.8605251
+  title: Using Pressure Sensors towards Pipeline Leakage Detection
+  authors:
+  - Kemahyanto Exaudi
+  - Rossi Passarella
+  - ' Rendyansyah'
+  - Rido Zulfahmi
+  publisher: 2018 International Conference on Electrical Engineering and Computer
+    Science (ICECOS)
+  date: '2018-10-01'
+  link: https://doi.org/hb7pd2
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/TSSA.2017.8272909
+  title: Disaster mitigation management using geofencing in Indonesia
+  authors:
+  - Rossi Passarella
+  - Sarifah Putri Raflesia
+  - Dinda Lestarini
+  - ' Taufiqurrahman'
+  - Reza Firsandaya Malik
+  - ' Sutarno'
+  - Huda Ubaya
+  - Ahmad Rifai
+  publisher: 2017 11th International Conference on Telecommunication Systems Services
+    and Applications (TSSA)
+  date: '2017-10-01'
+  link: https://doi.org/hb7pd3
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/ICECOS.2017.8167130
+  title: The user engagement impact along information technology of infrastructure
+    library (ITIL) adoption
+  authors:
+  - Sarifah Putri Raflesia
+  - Kridanto Surendro
+  - Rossi Passarella
+  publisher: 2017 International Conference on Electrical Engineering and Computer
+    Science (ICECOS)
+  date: '2017-08-01'
+  link: https://doi.org/hb7pd4
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.11591/EECSI.V1.400
+  title: Implementation of Image Segmentation Using RGB Color Detection on Virtual
+    Reality Robot as Spy Tool
+  authors:
+  - Rossi Passarella
+  - Sutarno .
+  - Ahmad Rezqy FF
+  publisher: Proceeding of the Electrical Engineering Computer Science and Informatics
+  date: '2014-08-20'
+  link: https://doi.org/hb7pd5
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.11591/IJPEDS.V4I4.5924
+  title: Lithium-ion Battery Charging System using Constant-Current Method with Fuzzy
+    Logic Based ATmega16
+  authors:
+  - Rossi Passarella
+  - Ahmad Fali Oklilas
+  - Tarida Mathilda
+  publisher: International Journal of Power Electronics and Drive Systems (IJPEDS)
+  date: '2014-10-01'
+  link: https://doi.org/hb7pd6
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.18495/COMENGAPP.V2I3.32
+  title: Design Concept of Convexity Defect Method on Hand Gestures as Password Door
+    Lock
+  authors:
+  - Rossi Passarella
+  - Muhammad Fadli
+  - Sutarno Sutarno
+  publisher: Computer Engineering and Applications Journal
+  date: '2013-10-28'
+  link: https://doi.org/hb7pd7
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.15242/IIE.E1213
+  title: International Conference on Emerging Trends in Engineering and Technology
+    (ICETET'2013) Dec. 7-8, 2013 Patong Beach, Phuket (Thailand)
+  authors: []
+  publisher: International Institute of Engineers
+  date: '2013-12-07'
+  link: https://doi.org/hb7pd8
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.18495/comengapp.v1i2.10
+  title: Lightweight Solar Vehicle Impact Analysis Using ABAQUS/EXPLICIT
+  authors:
+  - Rossi Passarella
+  - Zahari Taha
+  publisher: Computer Engineering and Applications Journal
+  date: '2012-10-15'
+  link: https://doi.org/hb7pd9
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1166/ASL.2011.1632
+  title: CFD Analysis for Merdeka 2 Solar Vehicle
+  authors:
+  - Zahari Taha
+  - Rossi Passarella
+  - . Sugiyono
+  - Nasrudin Abd Rahim
+  - Jamali Md Sah
+  - Aznijar Ahmad-Yazid
+  publisher: Advanced Science Letters
+  date: '2011-08-01'
+  link: https://doi.org/cxhvf5
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/ICCEA.2010.26
+  title: Application of Data Acquisition and Telemetry System into a Solar Vehicle
+  authors:
+  - Zahari Taha
+  - Rossi Passarella
+  - Hui Xin How
+  - Jamali Md Sah
+  - Norhafizan Ahmad
+  - Raja Ariffin Raja Ghazilla
+  - Jen Hwa Yap
+  publisher: 2010 Second International Conference on Computer Engineering and Applications
+  date: '2010-01-01'
+  link: https://doi.org/cmnfst
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- title: Driving force characteristic and power consumption of 4.75 kW permanent magnet
+    motor for a solar vehicle
+  publisher: Journal of Engineering and Applied Sciences
+  date: '2022-05-23'
+  link: http://www.scopus.com/inward/record.url?eid=2-s2.0-77953769796&partnerID=MN8TOARS
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- title: A solar vehicle based on sustainable design concept
+  publisher: Proceedings of the IASTED International Conference on Solar Energy, SOE
+    2009
+  date: '2022-05-23'
+  link: http://www.scopus.com/inward/record.url?eid=2-s2.0-74549128510&partnerID=MN8TOARS
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- title: Developing of a telemetry monitoring system for a solar vehicle
+  publisher: Proceedings of the IASTED International Conference on Solar Energy, SOE
+    2009
+  date: '2022-05-23'
+  link: http://www.scopus.com/inward/record.url?eid=2-s2.0-74549145550&partnerID=MN8TOARS
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- title: The effect of spherical hub-nose position on pressure drop in an oscillating
+    water column system for wave energy conversion
+  publisher: Proceedings of the IASTED International Conference on Solar Energy, SOE
+    2009
+  date: '2022-05-23'
+  link: http://www.scopus.com/inward/record.url?eid=2-s2.0-74549146728&partnerID=MN8TOARS
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:WOS:A1977CY78100025
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:A1977CY78100025
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2139/ssrn.5261836
+  title: Comparative Performance and Efficiency Analysis of Standard and Metaheuristic-Optimized
+    Artificial Neural Networks for Flight Delay Classification
+  authors:
+  - Rossi Passarella
+  - Nurainiyah Solehan
+  - Mastura Diana Marieska
+  - Aulya Putri Ayu
+  - Isbatudinia Isbatudinia
+  publisher: Elsevier BV
+  date: '2025-01-01'
+  link: https://doi.org/hb7pfb
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.18495/comengapp.v5i3.183
+  title: Object Reconstruction from 2D Drawing sketch to 3D Object
+  authors:
+  - Rossi Passarella
+  - Osvari Arsalan
+  publisher: Computer Engineering and Applications Journal
+  date: '2016-10-12'
+  link: https://doi.org/hb7pfc
+  orcid: 0000-0002-7243-0451
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/EECSI63442.2024.10776143
+  title: Black Hole Attacks Detection in Mobile Ad Hoc Networks (MANETs) using Bayesian
+    Inference Method
+  authors:
+  - Nurul Afifah
+  - Muhammad Fadli
+  - Tri Wanda Septian
+  - Winda Kurnia Sari
+  - Adi Hermansyah
+  - Mastura Diana Marieska
+  publisher: 2024 11th International Conference on Electrical Engineering, Computer
+    Science and Informatics (EECSI)
+  date: '2024-09-26'
+  link: https://doi.org/hb7pfd
+  orcid: 0009-0002-7768-0238
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.18495/comengapp.v11i1.394
+  title: Query Reformulation for Indonesian Question Answering System Using Word Embedding
+    of Word2Vec
+  authors:
+  - Alvi Syahrini Utami
+  - Novi Yusliani
+  - Mastura Diana Marieska
+  - Abdiansah Abdiansah
+  publisher: Computer Engineering and Applications Journal
+  date: '2022-02-01'
+  link: https://doi.org/hb7pff
+  orcid: 0009-0002-7768-0238
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/ICECOS.2018.8605255
+  title: Benchmarking Low Latency Kernel and Xenomai for A Network Gateway Encryption
+    Application
+  authors:
+  - Mastura Diana Marieska
+  - Achmad Imam Kistijantoro
+  publisher: 2018 International Conference on Electrical Engineering and Computer
+    Science (ICECOS)
+  date: '2018-10-01'
+  link: https://doi.org/hb7pfg
+  orcid: 0009-0002-7768-0238
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/ICEEI.2011.6021563
+  title: Analysis and benchmarking performance of Real Time Patch Linux and Xenomai
+    in serving a real time application
+  authors:
+  - Mastura Diana Marieska
+  - Achmad Imam Kistijantoro
+  - Muhammad Subair
+  publisher: Proceedings of the 2011 International Conference on Electrical Engineering
+    and Informatics
+  date: '2011-07-01'
+  link: https://doi.org/cdgx3q
+  orcid: 0009-0002-7768-0238
+  plugin: orcid.py
+  file: orcid.yaml
+- id: isbn:9789791421119
+  title: '2011 International Conference on Advanced Computer Science and Information
+    Systems (ICACSIS 2011): Jakarta, Indonesia, 17 - 18 December 2011 ; [proceedings]'
+  authors: []
+  publisher: IEEE
+  date: '2011-01-01'
+  link: ''
+  orcid: 0009-0002-7768-0238
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1371/journal.pcbi.1007128
@@ -219,9 +1570,6 @@
   publisher: PLOS Computational Biology
   date: '2020-12-04'
   link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
-  plugin: sources.py
-  file: sources.yaml
   type: paper
   description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
     do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -238,21 +1586,8 @@
   - open science
   - collaboration
   repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: openRxiv
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1016/j.csbj.2020.05.017
   title: Constructing knowledge graphs and their biomedical applications
   authors:
