@@ -43,6 +43,23 @@
   orcid: 0000-0001-8571-8924
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1109/ICAITech66481.2025.11387255
+  title: 'Agentic AI for Automated Grading: System Design, Baseline Study, and Empirical
+    Evaluation'
+  authors:
+  - Danny Matthew Saputra
+  - Ruth Helen Simarmata
+  - Muhammad Ali Buchari
+  - Muhammad Azka Faridi
+  - Mgs M Luthfi Ramadhan
+  - Redho Aidil Iqrom
+  publisher: 2025 International Conference on Artificial Intelligence and Technological
+    Solutions (ICAITech)
+  date: '2025-11-20'
+  link: https://doi.org/hb8cgt
+  orcid: 0000-0001-8571-8924
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1109/ACCESS.2025.3550949
   title: Convolutional Autoencoder With Sequential and Channel Attention for Robust
     ECG Signal Denoising With Edge Device Implementation
