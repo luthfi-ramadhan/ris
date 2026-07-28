@@ -110,7 +110,7 @@ The technical specifications of the High Performance Computing (HPC) infrastruct
   text=text
 %}
 
-{% capture text %}
+<!-- {% capture text %}
 
 Meet the team responsible for managing the HPC infrastructure and supporting research and innovation activities through RIS.
 
@@ -131,7 +131,7 @@ Meet the team responsible for managing the HPC infrastructure and supporting res
   link="team"
   title="Our Team"
   text=text
-%}
+%} -->
 
 
 
