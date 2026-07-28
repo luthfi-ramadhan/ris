@@ -5,7 +5,29 @@
 
 Research and Innovation Services (RIS) is a service unit of the High Performance Computer (HPC) Laboratory at the Faculty of Computer Science, Sriwijaya University. RIS is dedicated to supporting and encouraging research and innovation activities within the Faculty of Computer Science's academic environment. This service is intended for researchers, lecturers, and students who require high-performance computing facilities. Preparations for RIS began in 2024 and its soft launch was on February 11, 2025.
 
-http://bit.ly/FormHPCRIS
+{% capture text %}
+
+Need access to HPC resources for your research?
+
+Researchers, lecturers, and students can request access to the HPC infrastructure by submitting an application through our online form. Please provide information about your research project and computational requirements so that we can evaluate your request.
+
+{%
+  include button.html
+  link="http://bit.ly/FormHPCRIS"
+  text="Request HPC Access"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/hpc-request.jpg"
+  title="Request HPC Access"
+  text=text
+%}
 
 {% include section.html %}
 
