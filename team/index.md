@@ -15,4 +15,4 @@ The Research and Innovation Services (RIS) is supported by a team of lecturers a
 {% include list.html data="members" component="portrait" filter="role != 'pi'" %}
 
 
-{% include grid.html style="square" content=content %}
+
