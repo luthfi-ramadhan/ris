@@ -7,9 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+The Research and Innovation Services (RIS) is supported by a team of lecturers and researchers with expertise in various areas of high performance computing. Our team is responsible for supporting research activities, managing HPC resources, and providing technical assistance to researchers and students. 
 
 {% include section.html %}
 

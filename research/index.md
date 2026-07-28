@@ -11,11 +11,11 @@ Research is at the heart of the Research and Innovation Services (RIS). Our team
 
 {% include section.html %}
 
-## Highlighted
+<!-- ## Highlighted
 
 {% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
 
-{% include section.html %}
+{% include section.html %} -->
 
 ## All
 
