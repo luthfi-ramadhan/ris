@@ -46,7 +46,7 @@ permalink: /hpc-specifications/
         <td>32 GB</td>
         <td>HDD 2 TB & SSD 512 GB</td>
         <td>NVIDIA GeForce GTX 1650</td>
-        <td>Ubuntu Server 22.04 LTS</td>
+        <td>Ubuntu Server 26.04 LTS</td>
       </tr>
       <tr>
         <td>L2</td>
@@ -55,7 +55,7 @@ permalink: /hpc-specifications/
         <td>32 GB</td>
         <td>HDD 2 TB & SSD 512 GB</td>
         <td>NVIDIA GeForce GTX 1650</td>
-        <td>Ubuntu Server 22.04 LTS</td>
+        <td>Ubuntu Server 26.04 LTS</td>
       </tr>
       <tr>
         <td>L3</td>
@@ -136,7 +136,7 @@ permalink: /hpc-specifications/
         <td>32 GB</td>
         <td>HDD 4 TB & SSD 1 TB</td>
         <td>NVIDIA GeForce RTX 4070</td>
-        <td>Ubuntu Desktop</td>
+        <td>Ubuntu Desktop 26.04 LTS</td>
       </tr>
       <tr>
         <td>M7</td>

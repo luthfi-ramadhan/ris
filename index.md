@@ -29,7 +29,7 @@ Researchers, lecturers, and students can request access to the HPC infrastructur
 
 {%
   include feature.html
-  image="images/hpc-request.jpg"
+  image="images/regis.jpg"
   title="Request HPC Access"
   text=text
   style="bare"
@@ -127,7 +127,7 @@ Meet the team responsible for managing the HPC infrastructure and supporting res
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/team.png"
   link="team"
   title="Our Team"
   text=text
