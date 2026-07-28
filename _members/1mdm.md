@@ -1,6 +1,6 @@
 ---
 name: Mastura Diana Marieska, S.T., M.T.
-image: images/photo.jpg
+image: images/mdm.png
 role: Head of Laboratory
 affiliation: Department of Informatics Engineering, Sriwijaya University, Palembang, Indonesia.
 links:

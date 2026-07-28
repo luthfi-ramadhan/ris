@@ -1,6 +1,6 @@
 ---
 name: Dr. Rossi Passarella, S.T., M.Eng.
-image: images/photo.jpg
+image: images/rp.png
 role: Member
 affiliation: Department of Computer System, Sriwijaya University, Palembang, Indonesia.
 links:
