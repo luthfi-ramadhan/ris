@@ -16,7 +16,7 @@ Need access to HPC resources for your research?
 
 Researchers, lecturers, and students can request access to the HPC infrastructure by submitting an application through our online form. Please provide information about your research project and computational requirements so that we can evaluate your request.
 
-{%
+<!-- {%
   include button.html
   link="http://bit.ly/FormHPCRIS"
   text="Request HPC Access"
@@ -31,6 +31,27 @@ Researchers, lecturers, and students can request access to the HPC infrastructur
   include feature.html
   image="images/hpc-request.jpg"
   title="Request HPC Access"
+  text=text
+%} -->
+
+{%
+  include button.html
+  link="http://bit.ly/FormHPCRIS"
+  text="See HPC's Specifications"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/spec.jpg"
+  link="hpc-specifications"
+  title="HPC's Specifications"
+  flip=true
+  style="bare"
   text=text
 %}
 
