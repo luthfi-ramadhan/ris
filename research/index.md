@@ -1,14 +1,13 @@
 ---
-title: Research
+title: Publications
 nav:
   order: 1
   tooltip: Published works
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+# {% include icon.html icon="fa-solid fa-microscope" %}Publications
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Research is at the heart of the Research and Innovation Services (RIS). Our team members contribute to research and innovation across various areas of computing and information technology, including artificial intelligence, computer vision, data science, and high-performance computing. This page presents publications by RIS team members as a reflection of their ongoing research activities and contributions to the academic community.
 
 {% include section.html %}
 
