@@ -2,7 +2,7 @@
 name: Dr. Annisa Darmawahyuni, S.Kom., M.Kom.
 image: images/adw.jpg
 role: Member
-affiliation: Department of Informatics Engineering, Sriwijaya University, Palembang, Indonesia.
+affiliation: Department of Computer System, Sriwijaya University, Palembang, Indonesia.
 links:
   orcid: 0000-0002-0229-5717
 ---
